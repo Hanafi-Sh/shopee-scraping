@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+
+# Build
+build/
+dist/
+
+# Runtime
+cookies.json
+data/
+tests/fixtures/
+tests/fixtures/debug/
+tests/fixtures/debug_no_products_*.png
+tests/fixtures/diag_*.png
+tests/fixtures/diag_*.html
+!tests/fixtures/.gitkeep
+!tests/fixtures/debug/.gitkeep
+
+# Logs
+*.log
+
