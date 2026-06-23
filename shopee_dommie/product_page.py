@@ -634,11 +634,14 @@ async def extract_review_from_card(card, with_comments_only: bool = False) -> Re
             if idx > 0:
                 author = author[:idx].strip()
                 break
-        # If author still contains a long digit run (date glued to username),
-        # truncate at first 8-digit run (Shopee dates are YYYYMMDD = 8 digits).
-        m_date = re.search(r"\d{8}", author)
-        if m_date:
-            author = author[: m_date.start()].strip()
+        # If author still contains a date pattern (YYYY-MM-DD or YYYY/MM/DD
+        # or any 4-digit-year followed by digits), truncate at the year.
+        # Use negative lookbehind to avoid matching digits in usernames like
+        # 'user_2026' (the underscore between "user" and "2026" wouldn't be
+        # a word boundary).
+        m_year = re.search(r"(?<!\d)(19|20)\d{2}", author)
+        if m_year:
+            author = author[: m_year.start()].strip()
 
         # Rating: count filled stars inside this specific review card.
         # Priority: `.shopee-rating-stars__lit` (each is one filled star, max 5 per review).
