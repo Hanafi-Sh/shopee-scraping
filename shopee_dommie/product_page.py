@@ -127,7 +127,24 @@ async def extract_prices(page: Page) -> tuple[int | None, int | None]:
     current = smaller, original = larger.
     """
     try:
+        # Exclude the mini-vouchers block entirely — that's where voucher
+        # amounts (Rp100, Rp200, Rp89.579) live. Removing it from the body
+        # text leaves only the actual product prices.
         body_text = await page.locator("body").inner_text()
+        # Also try to evaluate the body without the mini-voucher section
+        try:
+            cleaned = await page.evaluate(
+                """() => {
+                    const clone = document.body.cloneNode(true);
+                    clone.querySelectorAll('[class*=\"mini-voucher\"]')
+                        .forEach(n => n.remove());
+                    return clone.innerText;
+                }"""
+            )
+            if cleaned and len(cleaned) >= len(body_text) * 0.5:
+                body_text = cleaned
+        except Exception:
+            pass
     except Exception:
         return None, None
     raw_prices = [
