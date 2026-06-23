@@ -683,18 +683,18 @@ async def extract_review_from_card(card, with_comments_only: bool = False) -> Re
         # AFTER the last "|". Also strip trailing seller-reply label and
         # report button if present.
         comment = ""
-        candidates = [l for l in lines if l not in (author, posted_at) and len(l) > 15]
+        # Use substring match (not equality) because posted_at was truncated
+        # at "|", so the line containing the date+variation no longer equals
+        # posted_at exactly — it's a SUPERSTRING of posted_at.
+        candidates = [l for l in lines if author not in l and posted_at not in l and len(l) > 15]
         if candidates:
             comment = max(candidates, key=len)
-        # If the line starts with the author + date pattern, the actual
-        # comment is after the LAST "|". Split and take the last segment.
+        # If the comment line still contains "|", it's a date+variation
+        # prefix concatenated with the real comment. Split and take the
+        # last (longest) segment.
         if "|" in comment:
             parts = [p.strip() for p in comment.split("|")]
-            # Take the longest segment after the first pipe — that's usually
-            # the actual review text (variation metadata is short)
             tail = max(parts[1:], key=len) if len(parts) > 1 else parts[-1]
-            # Only adopt the tail if it's actually the review content
-            # (longer than the metadata prefix and longer than 15 chars)
             if len(tail) > 15:
                 comment = tail
         # Strip trailing seller-reply label and report button if present
