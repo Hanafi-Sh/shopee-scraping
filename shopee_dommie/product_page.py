@@ -118,21 +118,45 @@ async def extract_product_name(page: Page) -> str:
 async def extract_prices(page: Page) -> tuple[int | None, int | None]:
     """Extract (current_price, original_price) from page text.
 
-    Strategy: find ALL 'Rp<num>' matches. The smaller is usually current,
-    larger is original (with discount). If only one, current = original = it.
+    Strategy: find ALL 'Rp<num>' matches and pick the largest value. Real
+    product prices are always the largest 'Rp' amount on the page — voucher
+    amounts (Rp100, Rp200, Rp89.579, etc. from the mini-vouchers block)
+    are smaller and lose the max() comparison.
+
+    If multiple large prices exist (e.g. current + strikethrough original),
+    current = smaller, original = larger.
     """
     try:
         body_text = await page.locator("body").inner_text()
     except Exception:
         return None, None
-    prices = [int(p.replace(".", "").replace(",", "")) for p in PRICE_RE.findall(body_text) if p]
-    prices = [p for p in prices if p > 0]
-    if not prices:
+    raw_prices = [
+        int(p.replace(".", "").replace(",", "")) for p in PRICE_RE.findall(body_text) if p
+    ]
+    if not raw_prices:
         return None, None
-    if len(prices) == 1:
-        return prices[0], None
-    # Current = min, original = max
-    return min(prices), max(prices)
+    # Find the largest "Rp" amount — this is the actual product price.
+    # Voucher amounts are smaller and won't be picked.
+    real_price = max(raw_prices)
+    # If the largest amount is too small (< Rp10.000), the page is likely
+    # degraded (only vouchers rendered). Wait and retry once — the real
+    # price often appears a moment later.
+    if real_price < 10_000:
+        await page.wait_for_timeout(2000)
+        body_text = await page.locator("body").inner_text()
+        raw_prices = [
+            int(p.replace(".", "").replace(",", "")) for p in PRICE_RE.findall(body_text) if p
+        ]
+        if not raw_prices:
+            return None, None
+        real_price = max(raw_prices)
+    # For discount detection: if there's a 2nd price that's >= 30% of max,
+    # treat it as the current price (strikethrough original is shown above)
+    other = [p for p in raw_prices if p < real_price and p >= real_price * 0.3]
+    if other:
+        current = max(other)
+        return current, real_price
+    return real_price, None
 
 
 async def extract_discount_percent(page: Page) -> int | None:
@@ -577,19 +601,27 @@ async def extract_review_from_card(card, with_comments_only: bool = False) -> Re
         if not lines:
             return None
 
-        # Author: look for username element first. Truncate at any UI markers
-        # (Shopee's reviewer name is usually followed by date "| 2025-...")
+        # Author: look for username element first. The element's innerText
+        # often concatenates username + date + variation, so we extract just
+        # the leading token (username is the part before the first digit run
+        # or date marker).
         author = ""
         username_loc = card.locator("[class*='username']")
         if await username_loc.count() > 0:
             author = (await username_loc.first.inner_text()).strip()
         if not author and lines:
             author = lines[0]
-        # Strip author at first "|" or date marker (text bleeding from sibling elements)
-        for sep in ["|", " 202", " 203"]:
+        # Truncate at the first "|", " 20" (date start), or other UI markers
+        for sep in ["|", " 20", "Laporkan", "respon"]:
             idx = author.find(sep)
             if idx > 0:
                 author = author[:idx].strip()
+                break
+        # If author still contains a long digit run (date glued to username),
+        # truncate at first 8-digit run (Shopee dates are YYYYMMDD = 8 digits).
+        m_date = re.search(r"\d{8}", author)
+        if m_date:
+            author = author[: m_date.start()].strip()
 
         # Rating: count filled stars inside this specific review card.
         # Priority: `.shopee-rating-stars__lit` (each is one filled star, max 5 per review).
@@ -626,18 +658,30 @@ async def extract_review_from_card(card, with_comments_only: bool = False) -> Re
             posted_at = posted_at[:idx].strip()
 
         # Comment: longest text line (excluding author/date).
-        # Also: Shopee's "respon penjual:" label and "Laporkan Penyalahgunaan"
-        # button are not removed by our QSiE2A filter, and they sometimes
-        # get glued to the comment text. Truncate at those markers.
+        # Shopee's review text concatenates username + date + "| Variasi:" +
+        # actual comment into a single line. The actual comment is the part
+        # AFTER the last "|". Also strip trailing seller-reply label and
+        # report button if present.
         comment = ""
         candidates = [l for l in lines if l not in (author, posted_at) and len(l) > 15]
         if candidates:
             comment = max(candidates, key=len)
-            # Strip trailing seller-reply label and report button if present
-            for marker in ["respon penjual", "Laporkan Penyalahgunaan", "Membantu?"]:
-                idx = comment.find(marker)
-                if idx > 0:
-                    comment = comment[:idx].strip()
+        # If the line starts with the author + date pattern, the actual
+        # comment is after the LAST "|". Split and take the last segment.
+        if "|" in comment:
+            parts = [p.strip() for p in comment.split("|")]
+            # Take the longest segment after the first pipe — that's usually
+            # the actual review text (variation metadata is short)
+            tail = max(parts[1:], key=len) if len(parts) > 1 else parts[-1]
+            # Only adopt the tail if it's actually the review content
+            # (longer than the metadata prefix and longer than 15 chars)
+            if len(tail) > 15:
+                comment = tail
+        # Strip trailing seller-reply label and report button if present
+        for marker in ["respon penjual", "Laporkan Penyalahgunaan", "Membantu?"]:
+            idx = comment.find(marker)
+            if idx > 0:
+                comment = comment[:idx].strip()
 
         # Defensive: if filter was on, skip reviews with empty/very short comments
         if with_comments_only and len(comment.strip()) < 10:
