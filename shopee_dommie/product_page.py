@@ -340,47 +340,60 @@ async def click_review_page(page: Page, page_num: int) -> bool:
     for calling click_expand_pages() when this returns False.
     """
     pat = re.compile(rf"^\s*{page_num}\s*$")
-    pat_loose = re.compile(rf"\b{page_num}\b")
 
-    # Scope to the rating section. Use multiple selectors in case Shopee
-    # uses a different container class.
-    rating_section = page.locator(
-        ".product-ratings, .product-rating-overview, .shopee-product-comment-list"
-    ).last  # .last = the deepest match (most likely the actual rating section)
+    # Scope to the rating section. Multiple selectors in case Shopee uses
+    # different container classes — we walk up from .shopee-product-comment-list
+    # to find the closest .product-ratings ancestor (which holds the pagination).
+    rating_section = page.locator(".product-ratings").last
+    if await rating_section.count() == 0:
+        # Fallback: walk up from comment list
+        rating_section = page.locator(".product-rating-overview, .shopee-product-comment-list").last
 
-    # Try button (most common) then a, both with exact then loose patterns
+    # Try button (most common) then a, with exact text match (no loose pattern
+    # — loose patterns can match the "..." button)
     for sel in ["button", "a"]:
         base = rating_section.locator(sel)
-        for pattern in [pat, pat_loose]:
-            try:
-                loc = base.filter(has_text=pattern)
-                cnt = await loc.count()
-                for i in range(cnt):
-                    elem = loc.nth(i)
-                    text = (await elem.inner_text()).strip()
-                    if text == str(page_num):
-                        await elem.click()
-                        try:
-                            await page.wait_for_load_state("domcontentloaded", timeout=2000)
-                        except Exception:
-                            pass
-                        await page.wait_for_timeout(300)
-                        return True
-            except Exception:
-                continue
+        try:
+            loc = base.filter(has_text=pat)
+            cnt = await loc.count()
+            for i in range(cnt):
+                elem = loc.nth(i)
+                text = (await elem.inner_text()).strip()
+                if text == str(page_num):
+                    await elem.click()
+                    try:
+                        await page.wait_for_load_state("domcontentloaded", timeout=2000)
+                    except Exception:
+                        pass
+                    await page.wait_for_timeout(500)
+                    return True
+        except Exception:
+            continue
 
-    # Debug
-    try:
-        all_btn_texts = await rating_section.locator("button").evaluate_all(
-            "els => els.map(e => e.innerText.trim()).filter(t => t)"
-        )
-        print(
-            f"   ⚠️  Could not find page-{page_num} button in rating section. "
-            f"Buttons in rating: {all_btn_texts[:15]}"
-        )
-    except Exception:
-        pass
     return False
+
+
+async def click_next_page_chevron(page: Page) -> bool:
+    """Click the right-arrow chevron button to navigate to the next review page.
+
+    Shopee's review pagination has:
+    - numbered buttons (1, 2, 3, ...) — only first 5 + last 5 visible by default
+    - a '...' expand button to reveal middle pages
+    - LEFT/RIGHT chevron icon buttons (`shopee-icon-button--left/right`) for
+      prev/next navigation. These are always present, no expansion needed.
+
+    Returns True if clicked. Caller should verify page change via first-card
+    text comparison.
+    """
+    btn = page.locator("button.shopee-icon-button--right").last
+    if await btn.count() == 0:
+        return False
+    try:
+        await btn.click()
+        await page.wait_for_timeout(1500)
+        return True
+    except Exception:
+        return False
 
 
 async def _capture_first_review_text(page: Page) -> str:
@@ -394,6 +407,44 @@ async def _capture_first_review_text(page: Page) -> str:
         )
     except Exception:
         return ""
+
+
+async def get_active_page_number(page: Page) -> int | None:
+    """Get the currently active pagination page number.
+
+    Shopee marks the active page with `shopee-button-solid--primary` class.
+    Returns the page number as int, or None if no active page is found.
+
+    This is the most reliable way to detect pagination state — the active
+    page indicator always updates when the page changes.
+    """
+    try:
+        btn = page.locator("button.shopee-button-solid--primary").last
+        if await btn.count() == 0:
+            return None
+        text = (await btn.inner_text()).strip()
+        return int(text) if text.isdigit() else None
+    except Exception:
+        return None
+
+
+async def get_chevron_disabled(page: Page) -> bool:
+    """Check if the next-page chevron is disabled.
+
+    Shopee disables pagination buttons on the last page. If the right
+    chevron is disabled, we've reached the end of pagination.
+    """
+    try:
+        btn = page.locator("button.shopee-icon-button--right").last
+        if await btn.count() == 0:
+            return True
+        # Shopee uses `disabled` attribute or class `--disabled`
+        is_disabled = await btn.evaluate(
+            "(el) => el.disabled || el.classList.contains('shopee-icon-button--disabled') || el.getAttribute('aria-disabled') === 'true'"
+        )
+        return bool(is_disabled)
+    except Exception:
+        return False
 
 
 async def click_expand_pages(page: Page, side: str = "middle") -> bool:
@@ -500,18 +551,45 @@ async def extract_review_from_card(card, with_comments_only: bool = False) -> Re
             rating-only entries through).
     """
     try:
-        text = await card.inner_text()
+        # IMPORTANT: Shopee's review card contains BOTH the customer comment
+        # AND the seller's reply. The seller reply is rendered inside a `<div
+        # class="QSiE2A">` element (Shopee's obfuscated class name — stable
+        # across sessions as of 2026-06-23). If we naively pick the longest
+        # line in the card, we get the seller template ("Halo Kak! Terima
+        # kasih...") instead of the customer's actual review.
+        #
+        # Fix: clone the card, strip the seller-reply block, then read text.
+        # This guarantees we extract text only from the customer side.
+        # NOTE: we use ONLY the specific `.QSiE2A` class. Broader selectors
+        # like `[class*="seller-reply"]` can over-match (e.g. ancestor
+        # containers) and accidentally remove the customer comment too.
+        try:
+            text = await card.evaluate(
+                """(el) => {
+                    const clone = el.cloneNode(true);
+                    clone.querySelectorAll('.QSiE2A').forEach(n => n.remove());
+                    return clone.innerText;
+                }"""
+            )
+        except Exception:
+            text = await card.inner_text()
         lines = [l.strip() for l in text.split("\n") if l.strip()]
         if not lines:
             return None
 
-        # Author: look for username element first
+        # Author: look for username element first. Truncate at any UI markers
+        # (Shopee's reviewer name is usually followed by date "| 2025-...")
         author = ""
         username_loc = card.locator("[class*='username']")
         if await username_loc.count() > 0:
             author = (await username_loc.first.inner_text()).strip()
         if not author and lines:
             author = lines[0]
+        # Strip author at first "|" or date marker (text bleeding from sibling elements)
+        for sep in ["|", " 202", " 203"]:
+            idx = author.find(sep)
+            if idx > 0:
+                author = author[:idx].strip()
 
         # Rating: count filled stars inside this specific review card.
         # Priority: `.shopee-rating-stars__lit` (each is one filled star, max 5 per review).
@@ -525,7 +603,9 @@ async def extract_review_from_card(card, with_comments_only: bool = False) -> Re
         # Clamp to valid range
         stars = max(0, min(stars, 5))
 
-        # Date: looks for "N hari/minggu/bulan/lalu" or a date
+        # Date: looks for "N hari/minggu/bulan/lalu" or a date. Truncate at
+        # any subsequent "|" or text marker (Shopee adds variation info that
+        # belongs in a separate field).
         posted_at = ""
         date_pattern = re.compile(
             r"(\d+\s*(?:hari|minggu|bulan|tahun|jam)\s*(?:lalu|yang\s+lalu)?|202[0-9])",
@@ -540,12 +620,24 @@ async def extract_review_from_card(card, with_comments_only: bool = False) -> Re
                 if re.search(r"hari|minggu|bulan|tahun|2024|2025|2026", line, re.IGNORECASE):
                     posted_at = line
                     break
+        # Truncate at "|" (Shopee appends variation info after date)
+        idx = posted_at.find("|")
+        if idx > 0:
+            posted_at = posted_at[:idx].strip()
 
-        # Comment: longest text line (excluding author/date)
+        # Comment: longest text line (excluding author/date).
+        # Also: Shopee's "respon penjual:" label and "Laporkan Penyalahgunaan"
+        # button are not removed by our QSiE2A filter, and they sometimes
+        # get glued to the comment text. Truncate at those markers.
         comment = ""
         candidates = [l for l in lines if l not in (author, posted_at) and len(l) > 15]
         if candidates:
             comment = max(candidates, key=len)
+            # Strip trailing seller-reply label and report button if present
+            for marker in ["respon penjual", "Laporkan Penyalahgunaan", "Membantu?"]:
+                idx = comment.find(marker)
+                if idx > 0:
+                    comment = comment[:idx].strip()
 
         # Defensive: if filter was on, skip reviews with empty/very short comments
         if with_comments_only and len(comment.strip()) < 10:
@@ -565,6 +657,8 @@ async def extract_review_from_card(card, with_comments_only: bool = False) -> Re
 
 async def extract_reviews(
     page: Page,
+    *,
+    captcha=None,
     max_reviews: int | None = None,
     with_comments_only: bool = True,
 ) -> list[Review]:
@@ -581,6 +675,10 @@ async def extract_reviews(
 
     Args:
         page: Product page with review section.
+        captcha: CaptchaDetector instance. MANDATORY in production — Shopee can
+            re-trigger captcha mid-extraction (e.g. after filter/pagination
+            clicks). If provided, captcha.wait_if_captcha() is called before
+            every risky action. If None, no captcha gate (DEV/headless only).
         max_reviews: Stop after this many reviews (None = all).
         with_comments_only: If True, click "Dengan Komentar" filter first to
             skip rating-only reviews. Default True (saves time).
@@ -588,6 +686,13 @@ async def extract_reviews(
     Returns:
         List of Review records.
     """
+
+    async def _gate() -> None:
+        """Re-check captcha at the start of every risky section."""
+        if captcha is not None:
+            await captcha.wait_if_captcha()
+
+    await _gate()
     # Scroll to review section. Shopee lazy-loads reviews — they're below the
     # description and may not be in the initial viewport. We do an explicit
     # page scroll to ensure the section is rendered before clicking filter.
@@ -637,11 +742,14 @@ async def extract_reviews(
     # The chip text case varies across Shopee pages (capitalized on some,
     # lowercase on others), so click_review_filter tries both internally.
     if with_comments_only and not await is_review_filter_active(page, "Dengan Komentar"):
+        await _gate()
         clicked = await click_review_filter(page, "Dengan Komentar")
         if clicked:
             print("   🔍 Filtered: Dengan Komentar (skips rating-only reviews)")
         else:
             print("   ⚠️  'Dengan Komentar' filter not found, collecting all reviews")
+        # Re-gate after the click — Shopee often re-evaluates after filter change
+        await _gate()
 
     all_reviews: list[Review] = []
     seen_hashes: set[int] = set()
@@ -655,26 +763,60 @@ async def extract_reviews(
         if count == 0:
             break
 
-        # Each direct child is a review card
-        try:
-            child_count = await list_container.first.evaluate("(el) => el.children.length")
-        except Exception:
-            child_count = 0
+        # Each review card has data-cmtid attribute (Shopee's stable identifier).
+        # We use this selector instead of `> *` to skip any non-card sibling divs
+        # that Shopee might insert (e.g. section headers, banners). Falls back to
+        # direct children if data-cmtid isn't found (some Shopee deployments
+        # might not use it).
+        child_count = 0
+        for selector in [
+            ":scope > [data-cmtid]",
+            "> [data-cmtid]",
+            "[data-cmtid]",
+            "> *",
+        ]:
+            try:
+                if (
+                    selector.startswith(":scope")
+                    or selector.startswith(">")
+                    or selector.startswith("[")
+                ):
+                    child_count = await list_container.first.evaluate(
+                        f"(el) => el.querySelectorAll('{selector}').length"
+                    )
+                if child_count > 0:
+                    break
+            except Exception:
+                continue
         if child_count == 0:
             break
+
+        # Pick the actual selector we ended up using
+        active_selector = "> *"
+        for selector in ["> [data-cmtid]", "[data-cmtid]", "> *"]:
+            try:
+                cnt = await list_container.first.evaluate(
+                    f"(el) => el.querySelectorAll('{selector}').length"
+                )
+                if cnt > 0:
+                    active_selector = selector
+                    child_count = cnt
+                    break
+            except Exception:
+                continue
 
         for i in range(child_count):
             if max_reviews and len(all_reviews) >= max_reviews:
                 return all_reviews
             try:
-                card = list_container.first.locator("> *").nth(i)
+                card = list_container.first.locator(active_selector).nth(i)
                 review = await extract_review_from_card(card, with_comments_only=with_comments_only)
             except Exception:
                 continue
             if review is None:
                 continue
-            # Dedup by author+comment
-            h = hash(f"{review.author}|{review.comment[:50]}")
+            # Dedup by review_id (cmtid-derived hash)
+            h = hash(review.review_id)
             if h in seen_hashes:
                 continue
             seen_hashes.add(h)
@@ -683,32 +825,44 @@ async def extract_reviews(
         if max_reviews and len(all_reviews) >= max_reviews:
             break
 
-        # Try to go to next page. Shopee's pagination is collapsed when there are
-        # many pages (e.g. shows "1, 2, ..., 25, 26, ..."). Pages between early
-        # and late ranges don't exist in DOM until you click "..." to expand.
-        # We try up to 3 expansions before giving up.
+        # Try to go to next page. Shopee's review pagination UI (as of
+        # 2026-06-23): numbered buttons (1, 2, ..., 5, "...", last) + LEFT/RIGHT
+        # chevron icon buttons (`shopee-icon-button--left/right`). The chevron
+        # is the most reliable — always present, no need to expand "...".
+        # Exhaustion detection: track the active page button
+        # (`shopee-button-solid--primary`). If after clicking chevron the
+        # active page number doesn't increment, we're stuck.
+        await _gate()
         current_page += 1
-        expansion_attempts = 0
-        max_expansion_attempts = 3
-        while expansion_attempts <= max_expansion_attempts:
-            if await click_review_page(page, current_page):
-                break  # success — back to main loop
-            # Try expanding the page list (click "..." button)
-            side = "middle" if expansion_attempts == 0 else "end"
-            expanded = await click_expand_pages(page, side=side)
-            if not expanded:
-                # No more "..." buttons to click — pagination exhausted
-                return all_reviews
-            expansion_attempts += 1
-            # Try again after expansion
-            if await click_review_page(page, current_page):
-                break
-        else:
-            # 3 expansions didn't reveal the page — give up
+        prev_active = await get_active_page_number(page)
+
+        # First check: chevron disabled (last page reached)
+        if await get_chevron_disabled(page):
+            print(f"   ⏹  Pagination exhausted at page {current_page - 1} (chevron disabled)")
+            return all_reviews
+
+        clicked = await click_next_page_chevron(page)
+        if not clicked:
+            print(f"   ⏹  Pagination exhausted at page {current_page - 1} (no chevron clickable)")
+            return all_reviews
+        # Re-gate in case Shopee triggered captcha on the click
+        await _gate()
+        # Wait for AJAX to settle
+        await page.wait_for_timeout(2000)
+
+        # Verify page change via active page indicator
+        new_active = await get_active_page_number(page)
+        if prev_active is not None and new_active is not None and new_active <= prev_active:
             print(
-                f"   ⏹  Pagination stopped at page {current_page - 1} "
-                f"after {expansion_attempts} expansion attempts"
+                f"   ⏹  Pagination exhausted at page {current_page - 1} "
+                f"(active page {prev_active} didn't increment, still {new_active})"
             )
+            return all_reviews
+
+        # Also check first-card text as belt-and-suspenders
+        new_first_review = await _capture_first_review_text(page)
+        if prev_active is None and not new_first_review:
+            print(f"   ⏹  Pagination exhausted at page {current_page - 1} (list empty)")
             return all_reviews
 
     return all_reviews

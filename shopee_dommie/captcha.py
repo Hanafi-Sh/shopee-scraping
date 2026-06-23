@@ -33,12 +33,17 @@ from playwright.async_api import Page
 
 VERIFY_URL_PATTERNS = ["/verify/", "scene=crawler", "anti_bot_tracking_id"]
 CAPTCHA_IFRAME_PATTERNS = ["captcha", "arkoselab", "funcaptcha", "arkose"]
+# Arkose Labs slider puzzle — Shopee's current text is split across elements
+# ("Verifikasi untuk melanjutkan" header + "untuk menyelesaikan puzzle" button)
+# so locator-based text matching is unreliable. We use a JS body-substring
+# fallback in `dom_has_captcha` below.
 CAPTCHA_TEXT_PATTERNS = [
     "Verifikasi untuk melanjutkan",
+    "untuk menyelesaikan puzzle",
     "Verifikasi Anda",
     "Verify you are human",
-    "Geser untuk menyelesaikan puzzle",
     "Slide to complete",
+    "Geser untuk menyelesaikan",
 ]
 
 
@@ -67,6 +72,19 @@ class CaptchaDetector:
         for pat in CAPTCHA_IFRAME_PATTERNS:
             if await self.page.locator(f"iframe[src*='{pat}']").count() > 0:
                 return True
+        # Locator-based text matching is unreliable when Shopee splits a phrase
+        # across multiple elements (e.g. "untuk" in <span>, "menyelesaikan" in
+        # another). Fall back to a substring scan of body innerText.
+        try:
+            body_text = await self.page.locator("body").inner_text(timeout=2000)
+        except Exception:
+            body_text = ""
+        body_lower = body_text.lower()
+        for text in CAPTCHA_TEXT_PATTERNS:
+            if text.lower() in body_lower:
+                return True
+        # Last-resort DOM scan for any element whose text contains captcha phrases.
+        # This handles the split-across-elements case directly.
         for text in CAPTCHA_TEXT_PATTERNS:
             if await self.page.locator(f"text={text}").count() > 0:
                 return True

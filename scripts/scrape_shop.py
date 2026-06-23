@@ -230,6 +230,7 @@ async def scrape_one_product(
         if collect_reviews_enabled:
             reviews = await extract_reviews(
                 page,
+                captcha=captcha,
                 max_reviews=max_reviews,
                 with_comments_only=with_comments_only,
             )
