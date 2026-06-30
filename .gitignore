@@ -1,0 +1,34 @@
+# dependencies
+node_modules/
+
+# build / test outputs
+out/
+*.png
+!docs/**/*.png
+
+# generated probe / scraper artifacts
+shopee-*.png
+laptop-*.jsonl
+inspect/
+
+# offline-mode captured HTML — large, regeneratable
+html-pages/
+
+# npx-installed skill bundle — regeneratable via `npx skills add <url>`
+.agents/
+skills-lock.json
+
+# MCP server config — contains the AdsPower LocalAPI key in plaintext.
+# Do not commit; rotate the key in AdsPower if it ever leaks.
+.mcp.json
+
+# env
+.env
+.env.local
+
+# macOS
+.DS_Store
+
+# editor
+.vscode/
+.idea/

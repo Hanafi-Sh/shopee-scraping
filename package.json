@@ -1,0 +1,32 @@
+{
+  "name": "shopee-scraper",
+  "version": "0.1.0",
+  "description": "Shopee /search scraper driven by AdsPower SunBrowser via CDP. Anti-detection defaults: human-like pre-nav delay, mid-post-load scroll drift, logged-in cookies, profile fingerprint consistency.",
+  "main": "scripts/scraper.js",
+  "scripts": {
+    "probe": "node scripts/probe.js",
+    "scrape": "node scripts/scraper.js",
+    "belia": "node scripts/scrape-beliacosmetic.js",
+    "capture": "node scripts/capture-pages.js",
+    "offline": "node scripts/parse-offline.js",
+    "inspect": "node scripts/inspect-dom.js",
+    "inspect:deep": "node scripts/inspect-deep.js"
+  },
+  "keywords": [
+    "shopee",
+    "scraper",
+    "adspower",
+    "cdp",
+    "playwright"
+  ],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "cheerio": "^1.2.0",
+    "playwright-core": "^1.61.1"
+  },
+  "optionalDependencies": {
+    "adspower-browser": "^2.1.0"
+  }
+}
