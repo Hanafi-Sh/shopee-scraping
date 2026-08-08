@@ -101,10 +101,13 @@ async function clickByTextHumanly(page, selector, textPredicate) {
   return { ok: true };
 }
 
-// Products on Shopee shop pages render as elements with class hover:shadow-hover
-// and an inner <a href$="-i."> child. On /search results the legacy selector
-// is [data-sqe="item"] — we try that first because it's more specific.
-const PRODUCT_SELECTOR = '[class*="hover:shadow-hover"], [data-sqe="item"]';
+// Products on Shopee shop pages render with the stable BEM class
+// `.shop-search-result-view__item.col-xs-2-4`. The previous
+// `[class*="hover:shadow-hover"]` selector also matched product cards in
+// the "Kamu Mungkin Suka" recommendation carousel above the main grid
+// (6 duplicates per page). User-provided selector is authoritative for the
+// main product grid only.
+const PRODUCT_SELECTOR = '.shop-search-result-view__item.col-xs-2-4';
 
 async function extractCards(page) {
   return await page.evaluate((sel) => {

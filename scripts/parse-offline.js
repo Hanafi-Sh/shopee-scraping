@@ -148,16 +148,17 @@ function inferPageFromFilename(file) {
 
     // Two extract strategies, mirroring the live scraper:
     //   (1) /search pages: <li data-sqe="item">
-    //   (2) /shop/<store> pages: <div class="... hover:shadow-hover ..."> wrapping
-    //       the product anchor. Cheerio handles the colon inside the class name
-    //       via attribute substring match — much more reliable than walking
-    //       up from anchors with :scope pseudo-class.
+    //   (2) /shop/<store> pages: <li class="shop-search-result-view__item col-xs-2-4">
+    //       This BEM class is the stable identifier for the main product grid;
+    //       the previous `[class*="hover:shadow-hover"]` selector also matched
+    //       product cards in the "Kamu Mungkin Suka" carousel above the grid
+    //       (6 duplicates per page). User-provided selector is authoritative.
     const $dataSqe = $('[data-sqe="item"]');
     let $cards;
     if ($dataSqe.length > 0) {
       $cards = $dataSqe;
     } else {
-      $cards = $('[class*="hover:shadow-hover"]');
+      $cards = $('.shop-search-result-view__item.col-xs-2-4');
     }
 
     const pageCards = [];

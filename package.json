@@ -7,6 +7,7 @@
     "probe": "node scripts/probe.js",
     "scrape": "node scripts/scraper.js",
     "belia": "node scripts/scrape-beliacosmetic.js",
+    "detail": "node scripts/scrape-product-details.js",
     "capture": "node scripts/capture-pages.js",
     "offline": "node scripts/parse-offline.js",
     "inspect": "node scripts/inspect-dom.js",

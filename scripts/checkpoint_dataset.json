@@ -1,0 +1,4691 @@
+{
+  "https://shopee.co.id/%E2%84%A2-BELIA-%E2%84%A2-CETAPHIL-Daily-Facial-Cleanser-118-236ml-Hydrating-Glycerin-Panthenol-Niacinamide-i.48382819.29453397354?extraParams=%7B%22display_model_id%22%3A256060381576%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah produknya dijamin asli?",
+    "labels": [
+      1,
+      0,
+      1,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%84%A2-BELIA-%E2%84%A2-EIEM-Beauty-Barrier-Cleanser-With-Natural-Ingreedients-No-Sulfate-Pembersih-Wajah-i.48382819.29565994409?extraParams=%7B%22display_model_id%22%3A241910782681%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah ada satu unit sabun yang kemasannya terlihat jelek dan tidak ada plastiknya?",
+    "labels": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%84%A2-BELIA-%E2%84%A2-LOREAL-PARIS-Glycolic-Bright-Glowing-Series-Serum-Cleanser-Cream-Day-Night-L'Oreal-i.48382819.16720545042?extraParams=%7B%22display_model_id%22%3A160783401380%2C%22model_selection_logic%22%3A2%7D": {
+    "question": "Apakah seller memberikan barang gratis sebagai bonus?",
+    "labels": [
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%84%A2-BELIA-%E2%84%A2-SAFI-Ultimate-Bright-Purifying-Makeup-Remover-100mL-200mL-(-pembersih-make-up-safi-)-i.48382819.2139943953?extraParams=%7B%22display_model_id%22%3A3956960813%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah tutup botol produk ini diberi lakban agar tidak tumpah saat dikirim?",
+    "labels": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%84%A2-BELIA-%E2%84%A2-SCARLETT-Sunscreen-Series-Sun-Bright-Ultra-Light-SPF50pa-SCARLET-By-Felicya-Angelista-i.48382819.19693846622?extraParams=%7B%22display_model_id%22%3A184631143638%2C%22model_selection_logic%22%3A2%7D": {
+    "question": "Apakah pengemasannya aman?",
+    "labels": [
+      1,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1,
+      1,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%84%A2-BELIA-%E2%84%A2-SOMETHINC-Holyshield!-UV-Watery-Sunscreen-Gel-SPF-50-PA-Sensasi-Salju-i.48382819.26763414453?extraParams=%7B%22display_model_id%22%3A256733620643%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah produk sampai dengan keadaan aman?",
+    "labels": [
+      1,
+      1,
+      0,
+      0,
+      0,
+      1
+    ]
+  },
+  "https://shopee.co.id/%E2%84%A2-BELIA-%E2%84%A2-WARDAH-Crystal-Secret-Pure-Treatment-Essence-100ml-50ml-30ml-Mencerahkan-Menghidrasi-dan-Skin-Booster-Hydrating-Calming-i.48382819.29360790650?extraParams=%7B%22display_model_id%22%3A236755261999%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah pesanan sesuai dengan yang dipesan?",
+    "labels": [
+      1,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-ACNES-Derma-Care-Anti-Blemish-Essence-20mL-Gentle-Cleanser-120-anti-jerawat-Rohto-i.48382819.7550987791?extraParams=%7B%22display_model_id%22%3A41195901377%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah harga produk di toko ini lebih murah dibandingkan toko online lainnya?",
+    "labels": [
+      1,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-ACNES-Natural-Care-Oil-Control-Gel-Sunscreen-SPF-50-PA-30-gr-Sunscreen-Wajah-i.48382819.29481999481?extraParams=%7B%22display_model_id%22%3A49543764259%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah produk ini sering kehabisan stok?",
+    "labels": [
+      1,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-AMATERASUN-Physical-Sunscreen-SPF-50-PA-untuk-kulit-normal-sensitif-i.48382819.26871012929?extraParams=%7B%22display_model_id%22%3A128157298276%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah produk ini asli?",
+    "labels": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      1,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-AMATERASUN-UV-Skin-Tint-SPF-35-PA-25gr-Broad-Spectrum-Sunscreen-SPF-35-PA--i.48382819.26209188033?extraParams=%7B%22display_model_id%22%3A207757156775%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah produk ini perlu diconceal untuk menutup bekas jerawat?",
+    "labels": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-AMATERASUN-UV-Sunscreen-Serum-SPF-50-PA-untuk-kulit-Kombinasi-dan-Berminyak-i.48382819.28421013557?extraParams=%7B%22display_model_id%22%3A252280759825%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah pengiriman produknya lebih cepat dibandingkan toko lain?",
+    "labels": [
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-AMATERASUN-UV-WaterBarrier-SPF-35-PA-40gr-7in1-Protection-Sunscreen-Wudhu-Friendly-i.48382819.25942318399?extraParams=%7B%22display_model_id%22%3A257808067070%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah sunscreen ini cocok untuk kulit berminyak?",
+    "labels": [
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-ANIMATE-Face-Serum-Vitamin-C-Collagen-Dark-Spot-24K-Gold-Rich-Nutrition-Acne-Whitening-Glowing-Barrier-20ml-i.48382819.25050744257?extraParams=%7B%22display_model_id%22%3A240019209405%2C%22model_selection_logic%22%3A2%7D": {
+    "question": "Apakah pengemasannya aman?",
+    "labels": [
+      1,
+      1,
+      0,
+      1,
+      1,
+      0,
+      1,
+      0,
+      0,
+      1
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-ARIUL-Smooth-Pure-Cleansing-Foam-50mL-100ml-Micellar-Cleansing-Water-100-ml-Sabun-Pembersih-Wajah-Cuci-Muka-Make-up-remover-i.48382819.6557127659?extraParams=%7B%22display_model_id%22%3A240367181954%2C%22model_selection_logic%22%3A2%7D": {
+    "question": "Apakah produk ini membuat wajah terasa lebih lembab?",
+    "labels": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-AZARINE-Aqua-Essence-Sun-Shield-Serum-SPF-50-PA-Hydrasoothe-Sunscreen-Gel-SPF45--i.48382819.9210248666?extraParams=%7B%22display_model_id%22%3A43402016784%2C%22model_selection_logic%22%3A2%7D": {
+    "question": "Apakah sunscreen ini terasa ringan di wajah?",
+    "labels": [
+      1,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-AZARINE-Brightening-Glow-Facial-Cleanser-60ml-Pembersih-wajah-i.48382819.25389602807?extraParams=%7B%22display_model_id%22%3A158941048030%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah produk ini memberikan rasa segar di wajah saat dipakai?",
+    "labels": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-AZARINE-Cicamide-Barrier-Sunscreen-Moisturiser-SPF35-PA-Sunscreen-Gel-Untuk-Skin-Barrier-Protection-i.48382819.29761093322?extraParams=%7B%22display_model_id%22%3A157460778737%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah packing pesanan di toko ini rapi?",
+    "labels": [
+      1,
+      1,
+      1,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-AZARINE-Superhero-Serum-Marvel-Edition-20ml-Face-Serum-Brightening-Acne-Dark-Spot-Exfoliating-BPOM-i.48382819.21818439826?extraParams=%7B%22display_model_id%22%3A180995781876%2C%22model_selection_logic%22%3A2%7D": {
+    "question": "Apakah serum Azarine ini cepat meresap di kulit?",
+    "labels": [
+      1,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-Acnes-face-wash-complete-white-100g-Sabun-cuci-muka-anti-jerawat-badan-BPOM-Rohto-i.48382819.25840850081?extraParams=%7B%22display_model_id%22%3A148997494467%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah produk ini ampuh mengatasi jerawat?",
+    "labels": [
+      1,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-Azarine-x-BT21-Body-Guard-Moisturizer-Sunscreen-Serum-100ml-SPF-50-PA-Body-Saver-i.48382819.18541459292?extraParams=%7B%22display_model_id%22%3A88209750050%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah sunscreen ini berbau harum bunga bak musim semi?",
+    "labels": [
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-BIORE-UV-Sunscreen-Series-Aqua-Rich-Watery-Essence-SPF-50-PA-Fresh-Bright-SPF-50-PA--i.48382819.22265624808?extraParams=%7B%22display_model_id%22%3A146828634162%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah tekstur Biore Sunscreen ini ringan dan mudah menyerap di kulit?",
+    "labels": [
+      1,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-BRASOV-Micellar-Cleansing-Water-XX-CT-100-ml-Pembersih-Make-Up-Wajah-(%E2%9C%94%EF%B8%8FBPOM)-i.48382819.9532252442?extraParams=%7B%22display_model_id%22%3A81249322490%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah micellar water ini bisa mengangkat sisa makeup dan kotoran di wajah dengan baik?",
+    "labels": [
+      1,
+      1,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-CARASUN-Solar-Smart-UV-Protector-Sunscreen-SPF-50-PA-30mL-i.48382819.27024607542?extraParams=%7B%22display_model_id%22%3A223755040062%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah produk ini memberikan hasil yang bagus saat pemakaian pertama?",
+    "labels": [
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-CARASUN-Sunscreen-Healthy-Matte-UV-Protector-70ml-30ml-SPF-50-PA-Normal-Oily-Skin-Non-Acnegenic-i.48382819.23553108564?extraParams=%7B%22display_model_id%22%3A186996410697%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah sunscreen ini cocok untuk kulit oily?",
+    "labels": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      1,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-CETAPHIL-Hydrating-Foaming-Cream-Cleanser-Gentle-Cleanser-Sensitive-Skin-Low-pH-Facial-Wash-i.48382819.19986573298?extraParams=%7B%22display_model_id%22%3A166240553428%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah produk ini tersedia dengan stok lokal di area Surabaya?",
+    "labels": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-CLEAN-CLEAR-Facial-Wash-Cleanser-Toner-Face-Paper-i.48382819.3895242200?extraParams=%7B%22display_model_id%22%3A105879264914%2C%22model_selection_logic%22%3A2%7D": {
+    "question": "Apakah produk ini cocok untuk kulit berminyak?",
+    "labels": [
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-CLEAN-FACE-Micellar-Water-100-ml-250-ml-Micellar-Water-by-Purbasari-Pembersih-Makeup-i.48382819.4157399870?extraParams=%7B%22display_model_id%22%3A256178116579%2C%22model_selection_logic%22%3A2%7D": {
+    "question": "Apakah penjual memberikan bonus tambahan saat pembelian?",
+    "labels": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-CLEANFACE-Face-Serum-20ml-Whitening-Serum-Acne-Care-Serum-Intense-Hydrating-Serum-Serum-Wajah-Serum-Jerawat-Purbasari-BPOM-i.48382819.16806947959?extraParams=%7B%22display_model_id%22%3A170269966856%2C%22model_selection_logic%22%3A2%7D": {
+    "question": "Apakah kemasan serum ini menggunakan tutup putih?",
+    "labels": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-COSRX-Advanced-Snail-Mucin-96-Power-Essence-Skin-Care-100-ML-Esense-wajah-untuk-anti-penuaan-i.48382819.27513695780?extraParams=%7B%22display_model_id%22%3A39822576473%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah produk ini memberikan efek adem dan segar di kulit?",
+    "labels": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-COSRX-Aloe-Soothing-Sun-Cream-SPF-50-PA-Skin-Care-50-ML-Tabir-Surya-Untuk-Kulit-Berminyak-i.48382819.26613705875?extraParams=%7B%22display_model_id%22%3A246752749280%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah produk ini merupakan barang asli?",
+    "labels": [
+      1
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-COSRX-Low-PH-Good-Morning-Gel-Cleanser-Sabun-pembersih-wajah-i.48382819.29324616880?extraParams=%7B%22display_model_id%22%3A233754966832%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah sabun ini cocok untuk wajah berminyak?",
+    "labels": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-COSRX-Salicylic-Acid-Daily-Gentle-Cleanser-Skin-Care150-ML-50-ML-Cleanser-Wajah-Untuk-Kulit-Jerawat-i.48382819.26563555512?extraParams=%7B%22display_model_id%22%3A256873491298%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah pengiriman produk ini cepat?",
+    "labels": [
+      1,
+      0,
+      1,
+      0,
+      0,
+      1,
+      0,
+      1,
+      1,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-COSRX-Series-AHA-BHA-C.Toner-Low-PH-Good-Morning-Gel-Cleanser-Salicylic-Acid-LowPH-S.Acid-Cleanser-Toner-(%E2%9C%94%EF%B8%8FBPOM)-i.48382819.26163555319?extraParams=%7B%22display_model_id%22%3A251742264538%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Bagaimana kualitas produknya?",
+    "labels": [
+      1,
+      1,
+      1,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-COSRX-Series-AHA-BHA-C.Toner-Low-PH-Good-Morning-Gel-Cleanser-Salicylic-Acid-LowPH-S.Acid-Cleanser-Toner-(%E2%9C%94%EF%B8%8FBPOM)-i.48382819.27063546024?extraParams=%7B%22display_model_id%22%3A195447335574%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah toner ini menenangkan dan aman dipakai setiap hari?",
+    "labels": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-COSRX-The-6-Peptide-Skin-Booster-Serum-New-150ml-membantu-menstimulasi-kolagen-i.48382819.27263412675?extraParams=%7B%22display_model_id%22%3A233297755904%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah produk COSRX yang dijual di toko ini dijamin original?",
+    "labels": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-Cetaphil-Bright-Healthy-Radiance-Series-Day-Night-Cream-Body-Wash-Toner-Cleanser-i.48382819.6769050301?extraParams=%7B%22display_model_id%22%3A32411384112%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah tanggal kedaluwarsa produk yang diterima masih lama?",
+    "labels": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-Cetaphil-Daily-Exfoliating-Cleanser-178ml-Pembersih-Muka-Vit-B5-Vit-E-i.48382819.6134648143?extraParams=%7B%22display_model_id%22%3A18217195470%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah produk ini menimbulkan perih saat terkena mata?",
+    "labels": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-Cetaphil-Gentle-Skin-Cleanser-59ml-dengan-Niacinamide-Glycerin-dan-Panthenol-Sabun-Pembersih-Muka-Untuk-Segala-Jenis-Kulit-i.48382819.29773655784?extraParams=%7B%22display_model_id%22%3A148981500738%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah sabun muka ini direkomendasikan untuk pemilik kulit sensitif?",
+    "labels": [
+      1,
+      0,
+      0,
+      1,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-EIEM-BEAUTY-Natural-Hybrid-Sunscreen-SPF-50-LOLOS-UJI-INVIVO-Sunscreen-wajah-i.48382819.28116150615?extraParams=%7B%22display_model_id%22%3A251921259158%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah pengemasan produk ini aman dan tebal?",
+    "labels": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      1,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-EIEM-Beauty-Full-Acid-Serum-Series-Exfoliating-Solution-20ml-Peeling-Solution-30ml-i.48382819.25492558640?extraParams=%7B%22display_model_id%22%3A237499658871%2C%22model_selection_logic%22%3A2%7D": {
+    "question": "Apakah Belia Cosmetics recommended untuk cari skincare atau kosmetik?",
+    "labels": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-EIEM-Beauty-Hydration-Booster-Serum-Multiple-Hyaluronic-Niacinamide-4-meningkatkan-kondisi-skin-barrier-dan-mencerahkan-kulit-i.48382819.25187818452?extraParams=%7B%22display_model_id%22%3A215515020383%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah kualitas produknya bagus?",
+    "labels": [
+      1,
+      1,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-ELFORMULA-CeraHydro-Barrier-Series-Essence-Moisture-Gel-Serum-Simple-and-Effective-i.48382819.29406918184?extraParams=%7B%22display_model_id%22%3A205284651566%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah pengirimannya cepat?",
+    "labels": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-EMINA-Bright-Stuff-Face-Wash-100-ml-Sabun-Muka-Cerah-Glowing-Anti-Kusam-i.48382819.27273042606?extraParams=%7B%22display_model_id%22%3A257433346371%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah packagingnya aman dengan bubble wrap berlapis?",
+    "labels": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-EMINA-Bright-Stuff-Face-Wash-Sabun-Muka-Cerah-Glowing-Anti-Kusam-i.48382819.29810881516?extraParams=%7B%22display_model_id%22%3A157457883943%2C%22model_selection_logic%22%3A2%7D": {
+    "question": "Apakah produk ini cocok untuk semua jenis kulit tanpa menyebabkan iritasi?",
+    "labels": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-EMINA-Bright-Stuff-Micellar-Water-50-100-ml-Pembersih-Make-Up-Wajah-Niacinamide-Cerah-Glowing-Mampu-Menghidrasi-Melembabkan-Makeup-Remover-i.48382819.28761028850?extraParams=%7B%22display_model_id%22%3A236764245425%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah produk ini berfungsi untuk membersihkan make up?",
+    "labels": [
+      1,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-EMINA-Max-Airy-Protection-Sun-Battle-SPF-50-PA-Barrier-Hydraburst-Cica-Acne-Fighter-Sunscreen-Tabir-Surya-i.48382819.25686166352?extraParams=%7B%22display_model_id%22%3A205400279404%2C%22model_selection_logic%22%3A2%7D": {
+    "question": "Apakah pengemasan produknya menggunakan banyak bubble wrap?",
+    "labels": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-EMINA-Ms.-Pimple-Acne-Solution-Face-Serum-30-mL-Serum-Wajah-Solusi-Atasi-Jerawat-i.48382819.28411762076?extraParams=%7B%22display_model_id%22%3A138051963671%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah produk ini baik untuk mengatasi jerawat?",
+    "labels": [
+      0,
+      1
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-EMINA-Ms.-Pimple-Acne-Solution-Face-Wash-50-ml-Pembersih-Wajah-Kulit-Berjerawat-i.48382819.29561762680?extraParams=%7B%22display_model_id%22%3A223238483982%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah pengirimannya cepat?",
+    "labels": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-EMINA-Prebiotic-Tranexamic-Acid-Brightening-Face-Wash-for-Acne-Prone-Skin-50-100ml-i.48382819.28111279525?extraParams=%7B%22display_model_id%22%3A79462975487%2C%22model_selection_logic%22%3A2%7D": {
+    "question": "Apakah busa yang dihasilkan oleh sabun muka Emina ini banyak?",
+    "labels": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-EMINA-Sun-Battle-Bright-Glow-SPF-35-PA-50-ML-SPF-30-Sunscreen-Serum-Amino-Vitamin-C-Cerah-Ringan-Hydrating-i.48382819.24940303003?extraParams=%7B%22display_model_id%22%3A223687581910%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah sunscreen ini memiliki kandungan yang dapat membantu mencerahkan kulit?",
+    "labels": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-EMINA-Sun-Battle-Bright-Glow-SPF-35-PA-SPF-30-Sunscreen-Serum-Amino-Vitamin-C-Cerah-Ringan-Hydrating-i.48382819.26861626792?extraParams=%7B%22display_model_id%22%3A166687844618%2C%22model_selection_logic%22%3A2%7D": {
+    "question": "Apakah sunscreen Emina ini cocok untuk kulit normal hingga kering?",
+    "labels": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-EMINA-Sun-Protection-SPF-30-PA-50mL-Emina-Sun-Battle-SPF-45-SPF-50-30-PA--i.48382819.7315538991?extraParams=%7B%22display_model_id%22%3A45374084510%2C%22model_selection_logic%22%3A2%7D": {
+    "question": "Apakah tekstur sunscreen ini terasa ringan di muka?",
+    "labels": [
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-FACETOLOGY-Skincare-series-Triple-Care-Sunscreen-Hybrid-Technology-SPF-40-PA-Triple-Care-Facial-Gel-Cleanser-i.48382819.24458438146?extraParams=%7B%22display_model_id%22%3A118281179938%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah sunscreen ini bisa memberikan efek glowing di wajah?",
+    "labels": [
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1,
+      1
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-FACETOLOGY-Triple-Care-Acne-Calm-Cleanser-100ml-Cleanser-Oil-Control-Calming-i.48382819.26930788648?extraParams=%7B%22display_model_id%22%3A247986055944%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah aroma produknya sama dengan versi original?",
+    "labels": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-FACETOLOGY-Triple-Care-Facial-Gel-Cleanser-Sabun-Cuci-Muka-Gentle-Low-PH-Oat-Senstive-Skin-All-Skin-Types-Acne-Untuk-Kulit-Sensitif-i.48382819.26112239473?extraParams=%7B%22display_model_id%22%3A166699139139%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah produk ini cocok untuk kulit berjerawat?",
+    "labels": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-FACETOLOGY-Triple-Care-Lip-Protector-Sunscreen-Flavored-Unflavored-Melindungi-bibir-dari-sinar-UV-i.48382819.26207054163?extraParams=%7B%22display_model_id%22%3A241322252114%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah produk ini bisa melindungi bibir dari sinar UV?",
+    "labels": [
+      1,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-FACETOLOGY-Triple-Care-Sunscreen-SPF-40-PA-40ML-Non-Comedogenic-Perlindungan-Kulit-Wajah-Face-Sun-Screen-i.48382819.27862241696?extraParams=%7B%22display_model_id%22%3A195415929174%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah sunscreen ini bagus untuk dipakai sehari-hari?",
+    "labels": [
+      1,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-FACETOLOGY-Triple-Care-Sunscreen-Tinted-SPF-50-PA-40ML-Ringan-dan-Tahan-Lama-i.48382819.28327859527?extraParams=%7B%22display_model_id%22%3A223866660956%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah sunscreen tinted ini terasa ringan saat dipakai?",
+    "labels": [
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-FAIR-LOVELY-GLOW-LOVELY-Brightening-Facial-Foam-Krim-Pencerah-Sabun-Cuci-Muka-UNILEVER-i.48382819.17251168631?extraParams=%7B%22display_model_id%22%3A204096875820%2C%22model_selection_logic%22%3A2%7D": {
+    "question": "Apakah packingnya aman dan menggunakan bubble wrap?",
+    "labels": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-FAIR-LOVELY-GLOW-LOVELY-Serum-Sheet-Mask-20G-Vitamin-C-Bright-C-Glow-Vita-Glow-Masker-Wajah-i.48382819.29416394505?extraParams=%7B%22display_model_id%22%3A207942099259%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah pengirimannya cepat?",
+    "labels": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      1,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-FAIR-LOVELY-GLOW-LOVELY-Ultimate-UV-Duo-Krim-Vitamin-C-SPF-35-PA-40gr-20gr-Krim-Pencerah-Harian-Day-Cream-Sunscreen-Serum-i.48382819.20293336246?extraParams=%7B%22display_model_id%22%3A232048270385%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah krim ini melindungi wajah dari paparan sinar matahari?",
+    "labels": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-GARNIER-Bright-Complete-Vitamin-C-Serum-Cleanser-100ml-Pembersih-Wajah-Mencerahkan-Kemasan-Hologram-i.48382819.29920654157?extraParams=%7B%22display_model_id%22%3A185640011390%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah produk ini cocok untuk wajah berminyak?",
+    "labels": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-GARNIER-MEN-Face-Wash-150ml-Acno-Fight-Turbo-Bright-Sabun-Wajah-Pria-i.48382819.28826429225?extraParams=%7B%22display_model_id%22%3A176971000401%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah packingnya aman dengan bubble wrap yang tebal?",
+    "labels": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-GARNIER-Pure-Active-Matcha-Deep-Clean-Sensitive-Gel-Anti-Acne-White-Foam-Face-Wash-Scrub-i.48382819.9348572447?extraParams=%7B%22display_model_id%22%3A55160691718%2C%22model_selection_logic%22%3A2%7D": {
+    "question": "Apakah pengemasan produknya sangat aman meski hanya membeli satu barang?",
+    "labels": [
+      1,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-GARNIER-Super-UV-Cooling-Watergel-Sunscreen-SPF-50-35-PA-30ml-Sensasi-dingin-8-jam-i.48382819.27683812812?extraParams=%7B%22display_model_id%22%3A234119527565%2C%22model_selection_logic%22%3A2%7D": {
+    "question": "Apakah warna cream dari sunscreen ini agak kebiruan?",
+    "labels": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-GATSBY-Aesthetic-Bright-Sunscreen-Moisturizer-40ml-SPF-50-Pa-Sunscreen-Cowok-Pria-i.48382819.26712072615?extraParams=%7B%22display_model_id%22%3A236803403539%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah sunscreen ini meninggalkan white cast?",
+    "labels": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-GATSBY-Cooling-Face-Wash-100gr-Series-Oil-Conttrol-Bright-White-Triple-Porefection-Perfect-Clean-i.48382819.23269254245?extraParams=%7B%22display_model_id%22%3A158224267552%2C%22model_selection_logic%22%3A2%7D": {
+    "question": "Apakah pengiriman produknya cepat?",
+    "labels": [
+      1,
+      1,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      1
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-GLAD2GLOW-Cherry-Blossom-Betaine-Micellar-Water-300-230-130ml-Pembersih-Wajah-i.48382819.26909755281?extraParams=%7B%22display_model_id%22%3A207770033821%2C%22model_selection_logic%22%3A2%7D": {
+    "question": "Apakah produk ini praktis untuk membersihkan wajah?",
+    "labels": [
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-GLAD2GLOW-Intensive-Peeling-Solution-Serum-15mI-AHA-BHA-PHA-Eksfoliasi-Exfoliating-Mengangkat-Sel-Kulit-Mati-i.48382819.25186148864?extraParams=%7B%22display_model_id%22%3A251616552742%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah proses pengirimannya cepat dan aman?",
+    "labels": [
+      1,
+      0,
+      1,
+      1,
+      0,
+      1,
+      1,
+      1,
+      1,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-GLAD2GLOW-Micellar-Water-Series-130ml-Pembersih-Make-Up-Wajah-i.48382819.29873446815?extraParams=%7B%22display_model_id%22%3A247463553092%2C%22model_selection_logic%22%3A2%7D": {
+    "question": "Apakah micellar water ini terasa segar dan memberikan efek seperti toner saat digunakan?",
+    "labels": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-GLAD2GLOW-Milk-Amino-Acid-Gentle-Cleanser-Brightening-Face-Wash-80ml-Sabun-Cuci-Muka-Pembersih-Wajah-i.48382819.26912788243?extraParams=%7B%22display_model_id%22%3A223277239362%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah sabun cuci muka ini membuat wajah menjadi lebih bersih dan cerah?",
+    "labels": [
+      1,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-GLOW-LOVELY-Bright-UV-Duo-Sunscreen-Vitamin-C-SPF-50-PA-15g-30g-i.48382819.28778859769?extraParams=%7B%22display_model_id%22%3A215858240874%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah produk ini cocok untuk usia 49 tahun?",
+    "labels": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-Garnier-Facial-Foam-Sakura-Light-Complete-Pure-Active-Matcha-9mL-(Garnier-Sachet)-i.48382819.4878115356?extraParams=%7B%22display_model_id%22%3A73559424791%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah barangnya dikemas dengan bubble wrap?",
+    "labels": [
+      1,
+      0,
+      1,
+      1,
+      1,
+      0,
+      1,
+      1,
+      1,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-Garnier-Men-Series-Foam-Scrub-Sabun-Pembersih-Wajah-Pria-50-100-i.48382819.5379042450?extraParams=%7B%22display_model_id%22%3A73675315461%2C%22model_selection_logic%22%3A2%7D": {
+    "question": "Apakah pesanan sudah lengkap sesuai yang dipesan?",
+    "labels": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-Garnier-Sakura-White-Sakura-Glow-Pinkish-Glow-Foam-Sabun-Cuci-Muka-Skin-Care-50-100mL-i.48382819.8313853765?extraParams=%7B%22display_model_id%22%3A63658510862%2C%22model_selection_logic%22%3A2%7D": {
+    "question": "Apakah produk ini bisa membuat wajah terlihat cerah setelah pemakaian?",
+    "labels": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-Garnier-Serum-Sakura-White-Hyaluron-30x-Booster-Serum-7.5mL-30mL-(%E2%9C%94%EF%B8%8FBPOM)-i.48382819.8811715191?extraParams=%7B%22display_model_id%22%3A73565379223%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah serum ini membuat wajah glowing dan tidak menyebabkan bruntusan atau jerawat?",
+    "labels": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-Grace-and-Glow-Black-Opium-Brightening-Sun-Lotion-Body-Serum-SPF-30-PA-Sunscreen-Sunblock-Badan-Anti-UV-with-Arbutin-Bearberry-i.48382819.29767513168?extraParams=%7B%22display_model_id%22%3A247022107130%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah tekstur body lotion ini mudah diratakan tanpa perlu diblend?",
+    "labels": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-HADA-LABO-Gokujyun-Moisturising-Face-Wash-100gr-i.48382819.28274563996?extraParams=%7B%22display_model_id%22%3A147663264949%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah produk ini cocok untuk kulit bekas jerawat kemerahan?",
+    "labels": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-HADA-LABO-Tamagohada-Ultimate-Mild-Peeling-Face-Wash-100gr-Improve-dull-skin-and-treat-skin-texture-i.48382819.24337216030?extraParams=%7B%22display_model_id%22%3A246802712880%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah produk ini tersedia dalam ukuran besar?",
+    "labels": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-HANASUI-Collagen-Micellar-Cleansing-Water-100ml-Remover-Eye-Lips-Pembersih-Make-up-i.48382819.27911864458?extraParams=%7B%22display_model_id%22%3A251633279690%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah produk ini membersihkan wajah tanpa meninggalkan residu lengket atau licin?",
+    "labels": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-HANASUI-Power-Serum-Acne-Bakuchiol-Barrier-Peeling-Serum-BPOM-i.48382819.19338006198?extraParams=%7B%22display_model_id%22%3A126588348826%2C%22model_selection_logic%22%3A2%7D": {
+    "question": "Apakah produk ini memiliki tanggal kedaluwarsa yang lama?",
+    "labels": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-HERBORIST-Facial-Wash-HERBORIST-Facial-Gel-Herborist-Sabun-Wajah-Pembersih-Wajah-OLIVE-ZAITUN-TEA-TREE-ROSE-ALOE-VERA-BPOM-i.48382819.18649058987?extraParams=%7B%22display_model_id%22%3A117482611287%2C%22model_selection_logic%22%3A2%7D": {
+    "question": "Apakah sabun wajah tea tree ini cocok untuk kulit berjerawat?",
+    "labels": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-HIMALAYA-Brightening-Vitamin-C-Orange-Face-Wash-100ml-Sabun-Wajah-i.48382819.29661936520?extraParams=%7B%22display_model_id%22%3A217823404957%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah wangi sabun wajah ini seperti jeruk?",
+    "labels": [
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-HIMALAYA-Serum-Series-Turmeric-Dark-Spot-Brightening-Vitamin-C-Orange-i.48382819.28224859509?extraParams=%7B%22display_model_id%22%3A108579373649%2C%22model_selection_logic%22%3A2%7D": {
+    "question": "Apakah produknya sesuai dengan pesanan?",
+    "labels": [
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-Hanasui-%E2%9C%94%EF%B8%8FBPOM-Power-Serum-Whitening-Gold-Vit-C-Collagen-Anti-Acne-Propolis-i.48382819.6002420909?extraParams=%7B%22display_model_id%22%3A8317633498%2C%22model_selection_logic%22%3A2%7D": {
+    "question": "Apakah kemasan serum Hanasui simpel dan estetik?",
+    "labels": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-Hanasui-Collagen-Water-Sunscreen-SPF-30-SPF-50-30ml-Tabir-Surya-Sunblok-BPOM-i.48382819.16792556877?extraParams=%7B%22display_model_id%22%3A156595823034%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah sunscreen Hanasui ini cocok untuk kulit berminyak?",
+    "labels": [
+      1,
+      0,
+      1,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-IMPLORA-Perfect-Shield-Gel-Sunscreen-SPF-30-PA-50ml-Sun-screen-Tabir-Surya-UV-Filter-Pelindung-dari-Sinar-Matahari-i.48382819.26011930011?extraParams=%7B%22display_model_id%22%3A29833857802%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah tekstur sunscreen ini cepat menyerap di kulit?",
+    "labels": [
+      1,
+      0,
+      0,
+      1,
+      1,
+      0,
+      0,
+      1,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-KAHF-Brightening-and-Texture-Refining-Face-Serum-35-ml-Serum-Pria-Cowok-Laki-laki-Mencerahkan-Meratakan-Tekstur-i.48382819.26410716414?extraParams=%7B%22display_model_id%22%3A197793014944%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah packingnya menggunakan double bubble wrap?",
+    "labels": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-KAHF-Face-Wash-Skin-Energizing-Brightening-Sabun-Pembersih-Wajah-Pria-Kulit-Cerah-Bebas-Kusam-Untuk-Jerawat-i.48382819.26173539759?extraParams=%7B%22display_model_id%22%3A237275030995%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah face wash Kahf ini memiliki aroma yang segar?",
+    "labels": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-L'OREAL-PARIS-Revitalift-Hyaluronic-Acid-Plumping-Cream-Day-50ml-15ml-LOREAL-i.48382819.18276377185?extraParams=%7B%22display_model_id%22%3A165726173500%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah produk ini membuat kulit jadi lembab dan plumpy?",
+    "labels": [
+      1,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-LABORE-AcnePro-Biome-Intensive-Acne-Serum-20ml-Serum-Intensif-Kulit-Berjerawat-i.48382819.25240904417?extraParams=%7B%22display_model_id%22%3A147665196967%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah serum ini efektif membuat jerawat kempes dan kering?",
+    "labels": [
+      1
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-LABORE-GentleBiome-Barrier-Repair-Serum-20ml-Triple-Ceramide-Complex-Serum-untuk-Kulit-Sensitif-Memperbaiki-Skin-Barrier-i.48382819.29862080489?extraParams=%7B%22display_model_id%22%3A207827407930%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah produk ini berkualitas?",
+    "labels": [
+      1,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-LABORE-GentleBiome-Hydrating-Face-Body-Cleanser-250-mL-Pembersih-Muka-dan-Tubuh-Untuk-Kulit-Sensitive-i.48382819.27162073067?extraParams=%7B%22display_model_id%22%3A197827417840%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah produk ini cocok untuk kulit sensitif?",
+    "labels": [
+      1
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-LIP-ICE-Sport-SPF-50-PA-Sunscreen-Lip-Balm-Protect-lips-from-sunlight-and-moisturize-lips-i.48382819.26721231852?extraParams=%7B%22display_model_id%22%3A215657271786%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah produk ini memiliki kandungan SPF?",
+    "labels": [
+      1,
+      0,
+      1,
+      0,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-MADAME-GIE-Necessity-Micellar-Water-300ml-Pembersih-Wajah-Make-Up-Remover-Cleansing-Water-for-All-Skin-Type-i.48382819.28004503318?extraParams=%7B%22display_model_id%22%3A178290894266%2C%22model_selection_logic%22%3A2%7D": {
+    "question": "Apakah micellar water ini baunya wangi dan menenangkan?",
+    "labels": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-MADAME-GIE-Niacera-Series-2-Niacera-Essence-Toner-10-Niacera-Serum-i.48382819.24644914732?extraParams=%7B%22display_model_id%22%3A234207498388%2C%22model_selection_logic%22%3A2%7D": {
+    "question": "Apakah barang yang diterima sesuai dengan pesanan?",
+    "labels": [
+      1,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-MAMAYA-Niacinamide-Collagen-Brightening-Facial-Wash-100g-Sabun-Cuci-Wajah-Mengandung-Niacinamide-dan-Collagen-i.48382819.24050818195?extraParams=%7B%22display_model_id%22%3A108238652874%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Bagaimana aroma sabun cuci muka ini?",
+    "labels": [
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-MAMAYA-Papaya-Face-Wash-Brightening-Anti-Acne-100g-(%E2%9C%94%EF%B8%8FBPOM)-i.48382819.3571214057?extraParams=%7B%22display_model_id%22%3A62754718058%2C%22model_selection_logic%22%3A2%7D": {
+    "question": "Apakah produk ini cocok untuk kulit berminyak dan berjerawat?",
+    "labels": [
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-MARINA-Expert-White-Glow-Acne-Clear-Gel-Facial-Foam-50-100ml-Face-Cream-20ml-i.48382819.25435211083?extraParams=%7B%22display_model_id%22%3A166642703742%2C%22model_selection_logic%22%3A2%7D": {
+    "question": "Apakah kemasan produk terlihat rusak atau penyok saat diterima?",
+    "labels": [
+      0,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-MARINA-Expert-White-Glow-Hydra-Lock-Facial-Foam-Face-Cream-Micellar-Water-i.48382819.25935220686?extraParams=%7B%22display_model_id%22%3A226691566189%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah produk ini cocok untuk kulit kering?",
+    "labels": [
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      1,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-MELANO-CC-Vitamin-C-Serum-Anti-Spot-20ml-Brightening-Essence-Premium-Essence-Rohto-i.48382819.27601453002?extraParams=%7B%22display_model_id%22%3A240929868628%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah tekstur produknya cair dan sedikit berminyak?",
+    "labels": [
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-MEN'S-BIORE-Facial-Wash-100g-Facial-Foam-Sabun-Cuci-Muka-Pembersih-Wajah-i.48382819.18687932041?extraParams=%7B%22display_model_id%22%3A231518490909%2C%22model_selection_logic%22%3A2%7D": {
+    "question": "Apakah produk yang diterima sesuai dengan gambar dan deskripsi?",
+    "labels": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-MINERAL-BOTANICA-First-Defense-Brightening-Series-Facial-Foam-Day-Night-Cream-Serum-i.48382819.9779199732?extraParams=%7B%22display_model_id%22%3A76473863453%2C%22model_selection_logic%22%3A2%7D": {
+    "question": "Pengirimannya cepat gak sih?",
+    "labels": [
+      1,
+      0,
+      1,
+      0,
+      1,
+      1,
+      0,
+      0,
+      1,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-MUSTIKA-RATU-Brightening-Bengkoang-Series-Cream-Mask-Facial-Wash-Face-Cleanser-Toner-Moisturizer-Powder-Mask-i.48382819.24558294305?extraParams=%7B%22display_model_id%22%3A255215676561%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah facial wash ini mengandung butiran scrub?",
+    "labels": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-Madame-Gie-4-in-1-All-Gleam-Foam-Facial-Wash-MakeUp-Remover-Sabun-Cuci-Muka-Pembersih-Wajah-i.48382819.21084695652?extraParams=%7B%22display_model_id%22%3A158385556913%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah kemasan produknya lucu?",
+    "labels": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-Madame-Gie-Madame-Protect-Me-Let's-Glow-Tinted-Sunscreen-SPF-50-PA-Multipurpose-35ML-i.48382819.26061854645?extraParams=%7B%22display_model_id%22%3A109267400862%2C%22model_selection_logic%22%3A2%7D": {
+    "question": "Apakah toko jujur dalam mencantumkan shade produk yang dipesan?",
+    "labels": [
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-N'PURE-Cica-Beat-The-Sun-Spray-50ml-Healthy-Glow-SPF-50-PA-Sunscreen-Spray-i.48382819.25686358653?extraParams=%7B%22display_model_id%22%3A205413175166%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah packaging produknya tebal dan aman saat pengiriman?",
+    "labels": [
+      1,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-N'PURE-Sunscreen-Cica-Beat-The-Sun-Matte-SPF-50-PA-Sunscreen-Jerawat-Sunscreen-Hypoallergenic-i.48382819.25639095707?extraParams=%7B%22display_model_id%22%3A178581517638%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah sunscreen ini cocok untuk kulit berjerawat?",
+    "labels": [
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-N'PURE-Sunscreen-Cica-Beat-The-Sun-Sunscreen-Hypoallergenic-SPF-50-PA-Kulit-Kering-Jerawat-i.48382819.26419660397?extraParams=%7B%22display_model_id%22%3A242177667165%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah sunscreen ini memberikan efek glowing di wajah saat dipakai?",
+    "labels": [
+      1,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-NATUR-E-White-Bright-Glow-Radiant-Miracle-Booster-Serum-20ml-i.48382819.27320656862?extraParams=%7B%22display_model_id%22%3A252251508687%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah paketnya aman saat diterima?",
+    "labels": [
+      1,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-NIVEA-MEN-Extra-White-Anti-Dark-Spot-Serum-Spf50-15ml-Dark-Spot-Minimizer-Facial-Foam-100-ml-BPOM-i.48382819.21959522331?extraParams=%7B%22display_model_id%22%3A220174701712%2C%22model_selection_logic%22%3A2%7D": {
+    "question": "Apakah pesanan yang dikirim lengkap tanpa ada yang kurang?",
+    "labels": [
+      1,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      1,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-NIVEA-Micellair-Oil-and-Acne-Care-Micellar-Water-125ml-Membersihkan-debu-makeup-i.48382819.26474733771?extraParams=%7B%22display_model_id%22%3A157665217440%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah produknya sesuai dengan ekspektasi?",
+    "labels": [
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-NIVEA-Micellar-Water-Series-Rose-Care-MicellAir-Skin-Breathe-0-Alcohol-400ml-BESAR-Make-Up-Remover-Pembersih-Wajah-Make-Up-i.48382819.23847761774?extraParams=%7B%22display_model_id%22%3A49326315623%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah produk ini bisa membersihkan make up dengan baik?",
+    "labels": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-NIVEA-SUN-Face-Serum-Extra-Protect-Aura-SPF50-PA-30ml-Membantu-rona-wajah-tampak-cerah-i.48382819.27462993555?extraParams=%7B%22display_model_id%22%3A246710541847%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah efek saat memakai produk ini terasa enak?",
+    "labels": [
+      1,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-NIVEA-SUN-Face-Serum-Extra-Protect-C-E-SPF50-PA-30ml-Menyamarkan-darkspot-pada-wajah-i.48382819.29762993568?extraParams=%7B%22display_model_id%22%3A251710546411%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah pembeli berharap produk ini cocok seperti produk Nivea sebelumnya?",
+    "labels": [
+      1,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-NIVEA-SUN-Face-Serum-Extra-Protect-Oil-Control-SPF50-PA-30ml-Mengontrol-minyak-berlebih-i.48382819.26663003450?extraParams=%7B%22display_model_id%22%3A185435279696%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah produk ini dapat menahan minyak di kulit berminyak?",
+    "labels": [
+      1,
+      0,
+      1,
+      0,
+      0,
+      1,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-NPURE-Facial-Wash-Cica-Anti-Acne-Facial-Foam-Sabun-Muka-Anti-Jerawat-Berminyak-i.48382819.27319554501?extraParams=%7B%22display_model_id%22%3A223542073209%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah Belia menjamin keaslian produknya?",
+    "labels": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-NPURE-Licorice-Series-Brightening-The-Light-Cleanser-Milky-Toner-Moisturizer-i.48382819.13696958502?extraParams=%7B%22display_model_id%22%3A155981246680%2C%22model_selection_logic%22%3A2%7D": {
+    "question": "Apakah setelah pemakaian produk ini wajah terasa lebih bersih?",
+    "labels": [
+      1,
+      0,
+      0,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-NPURE-Noni-Probiotics-(Sensitive-Series)-Sensitif-Kulit-Gel-Cleanser-Moisturizer-i.48382819.11374444390?extraParams=%7B%22display_model_id%22%3A140307828910%2C%22model_selection_logic%22%3A2%7D": {
+    "question": "Apakah produk ini cocok untuk kulit sensitif berjerawat?",
+    "labels": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-NUFACE-3in1-Calendula-Essential-Moisture-Boost-Skin-Barrier-Paket-Bundling-Facial-Wash-Micellar-Water-Essence-Skincare-Fuji-i.48382819.25452206343?extraParams=%7B%22display_model_id%22%3A187178469754%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah pengirimannya cepat?",
+    "labels": [
+      1
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-NUFACE-Calendula-Essential-Moisture-Boost-Skin-Barrier-Essence-Micellar-Water-Facial-Wash-Skincare-FUJI-UTAMI-i.48382819.24351508506?extraParams=%7B%22display_model_id%22%3A197160370915%2C%22model_selection_logic%22%3A2%7D": {
+    "question": "Apakah produk NUFACE Calendula ini cocok untuk kulit sensitif?",
+    "labels": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-NUFACE-Cover-Me-Sun-Shield-Sunscreen-SPF-30-SPF-50-PA-Tabir-Surya-i.48382819.28960014046?extraParams=%7B%22display_model_id%22%3A246517395162%2C%22model_selection_logic%22%3A2%7D": {
+    "question": "Apakah sunscreen ini nyaman dipakai di kulit kombinasi yang cenderung berminyak?",
+    "labels": [
+      1,
+      0,
+      0,
+      1,
+      1,
+      0,
+      0,
+      1,
+      1,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-Nivea-Sunscreen-Sun-Protect-Series-Daily-Protection-i.48382819.4959171117?extraParams=%7B%22display_model_id%22%3A22802218033%2C%22model_selection_logic%22%3A2%7D": {
+    "question": "Apakah pengemasan pesanannya menggunakan bubble wrap yang tebal dan berlapis?",
+    "labels": [
+      1,
+      1,
+      0,
+      0,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-Nuface-Nu-Glow-Acne-Prone-Care-Facial-Wash-Gel-80gr-i.48382819.27216121908?extraParams=%7B%22display_model_id%22%3A251919579087%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah kualitas produknya memuaskan?",
+    "labels": [
+      1,
+      1,
+      1,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-Nuface-Nu-Glow-Men-Facial-Wash-Bright-Up-Acnover-Facial-Wash-Pencuci-Wajah-Face-Wash-Pembersih-Wajah-i.48382819.23577226899?extraParams=%7B%22display_model_id%22%3A156980712779%2C%22model_selection_logic%22%3A2%7D": {
+    "question": "Apakah pengiriman produk ini cepat?",
+    "labels": [
+      1,
+      1,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-Nuface-Nu-Glow-Serum-Series-20-ml-BPOM-Vitamin-C-Serum-Brighten-Supple-Serum-AHA-BHA-PHA-Serum-i.48382819.26915728193?extraParams=%7B%22display_model_id%22%3A241891584910%2C%22model_selection_logic%22%3A2%7D": {
+    "question": "Apakah serum ini ampuh untuk memudarkan bekas jerawat?",
+    "labels": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-OMG-Bright-Booster-Face-Wash-50ml-100ml-Oh-My-Glow-Sabun-Wajah-Semua-Jenis-Kulit-Foam-Cleanser-i.48382819.29060990396?extraParams=%7B%22display_model_id%22%3A241575846729%2C%22model_selection_logic%22%3A2%7D": {
+    "question": "Apakah sabun wajah ini membantu mengontrol minyak di wajah?",
+    "labels": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-OMG-OH-MY-GLOW-HydraPower-Micellar-Water-65-300-Ml-with-Niacinmide-Cica-Mencerahkan-Melembabkan-i.48382819.29235684730?extraParams=%7B%22display_model_id%22%3A270143249011%2C%22model_selection_logic%22%3A2%7D": {
+    "question": "Apakah produk datang dalam kondisi baik tanpa kerusakan?",
+    "labels": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      1,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-OMG-OH-MY-GLOW-Serum-20ml-Peach-Glowing-Pencerah-Glowing-Mugwort-Acne-Kulit-Berjerawat-i.48382819.20171163946?extraParams=%7B%22display_model_id%22%3A220753038410%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah produk ini membuat wajah menjadi lebih lembut?",
+    "labels": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-OMG-Paket-Skincare-Glowing-Kit-Oh-My-Glow-Bright-Protect-Cleanser-Moisturizer-i.48382819.24038289481?extraParams=%7B%22display_model_id%22%3A79485814643%2C%22model_selection_logic%22%3A2%7D": {
+    "question": "Apakah moisturizer gel OMG nyaman dipakai sebagai night cream?",
+    "labels": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-PIGEON-TEENS-Acne-Ranger-Serum-20ml-Serum-Remaja-untuk-Kulit-Berjerawat-i.48382819.25786314457?extraParams=%7B%22display_model_id%22%3A178431906941%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah kualitas produknya bagus?",
+    "labels": [
+      1,
+      1,
+      0,
+      0,
+      1,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-PIGEON-TEENS-BRIGHT-HEROES-SERUM-20ML-Serum-Remaja-Mencerahkan-5-Niacinamide-i.48382819.26664962057?extraParams=%7B%22display_model_id%22%3A139108591896%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah serum ini cocok untuk kulit remaja?",
+    "labels": [
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-PIGEON-TEENS-Bright-Heroes-Micellar-Water-100ml-Micellar-Water-Pembersih-Wajah-Double-Cleansing-Skincare-Infused-i.48382819.26859420530?extraParams=%7B%22display_model_id%22%3A256481987728%2C%22model_selection_logic%22%3A2%7D": {
+    "question": "Apakah kemasan micellar water Pigeon ini lucu dan praktis untuk dibawa bepergian?",
+    "labels": [
+      1,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-PIGEON-TEENS-EVERYDAY-SUNSCREEN-SPF-35-PA-30ml-Sunscreen-Remaja-Real-SPF-No-Whitecast-Non-Sticky-Formula-i.48382819.26564955900?extraParams=%7B%22display_model_id%22%3A256842730042%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah packingnya aman?",
+    "labels": [
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-PIGEON-TEENS-FACIAL-FOAM-ACNE-CARE-100ML-Kulit-Berjerawat-Sabun-Cuci-Muka-Remaja-Pembersih-Muka-Remaja-i.48382819.26965266258?extraParams=%7B%22display_model_id%22%3A205491662190%2C%22model_selection_logic%22%3A2%7D": {
+    "question": "Apakah produk ini cocok untuk kulit berjerawat?",
+    "labels": [
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-PIGEON-TEENS-FACIAL-FOAM-ALL-SKIN-TYPES-100ML-Kulit-Normal-Sabun-Cuci-Muka-Remaja-Pembersih-Muka-Remaja-i.48382819.29265347499?extraParams=%7B%22display_model_id%22%3A157519515990%2C%22model_selection_logic%22%3A2%7D": {
+    "question": "Apakah harga produk ini terjangkau?",
+    "labels": [
+      1,
+      1,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-PIGEON-TEENS-FACIAL-FOAM-DEEP-CLEANSING-OIL-CONTROL-40ml-Kulit-Berminyak-Charcoal-Sabun-Cuci-Muka-Remaja-i.48382819.26665356625?extraParams=%7B%22display_model_id%22%3A197911751266%2C%22model_selection_logic%22%3A2%7D": {
+    "question": "Apakah harga produk ini terjangkau?",
+    "labels": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-PIGEON-TEENS-HYDRA-SQUAD-SERUM-Serum-Remaja-Melembabkan-Hyaluronic-Acid-i.48382819.29414813215?extraParams=%7B%22display_model_id%22%3A241833976737%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah penjualnya memuaskan?",
+    "labels": [
+      1,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-PIGEON-TEENS-X-FOLIATE-ARMY-SERUM-20ML-Serum-Remaja-Eksfoliasi-untuk-Kulit-Kasar-dan-Noda-Hitam-Brassica-Oleracea-Acephala-Leaf-Extract-3--i.48382819.29464688026?extraParams=%7B%22display_model_id%22%3A223349058129%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah penggunaan serum ini membuat kulit menjadi halus dan cerah?",
+    "labels": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-PIXY-Anti-Acne-Series-Facial-Foam-Anti-Acne-Cleansing-Express-Anti-Acne-Perawatan-Berjerawat-Acne-Treatment-BPOM-i.48382819.21978429354?extraParams=%7B%22display_model_id%22%3A108058082261%2C%22model_selection_logic%22%3A2%7D": {
+    "question": "Apakah produk ini cocok untuk kulit kombinasi?",
+    "labels": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-PIXY-Brightening-Series-Facial-Foam-Brightening-Cleansing-Express-Brightening-Perawatan-Mencerahkan-Brightening-Treatment-BPOM-i.48382819.23938698601?extraParams=%7B%22display_model_id%22%3A204205412038%2C%22model_selection_logic%22%3A2%7D": {
+    "question": "Apakah produk ini cocok untuk mengangkat kotoran dan makeup?",
+    "labels": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-PIXY-Cleansing-Express-Anti-Acne-150ml-100ml-Pembersih-Wajah-Berjerawat-i.48382819.29613168827?extraParams=%7B%22display_model_id%22%3A251717975852%2C%22model_selection_logic%22%3A2%7D": {
+    "question": "Apakah produk ini efektif membersihkan kotoran di wajah?",
+    "labels": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-PIXY-Facial-Foam-Anti-Acne-100g-40g-Perawatan-Berjerawat-Acne-Treatment-i.48382819.27513325226?extraParams=%7B%22display_model_id%22%3A226848412639%2C%22model_selection_logic%22%3A2%7D": {
+    "question": "Apakah facial foam ini ampuh mengatasi jerawat?",
+    "labels": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-PIXY-Facial-Foam-Brightening-40gr-100gr-Perawatan-Mencerahkan-i.48382819.26563330409?extraParams=%7B%22display_model_id%22%3A241726076385%2C%22model_selection_logic%22%3A2%7D": {
+    "question": "Apakah harga produknya murah?",
+    "labels": [
+      1,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-PIXY-Perfect-Clean-Micellar-Water-100mL-Oil-Type-Pembersih-Wajah-i.48382819.29163172552?extraParams=%7B%22display_model_id%22%3A223289634511%2C%22model_selection_logic%22%3A2%7D": {
+    "question": "Apakah micellar water ini tidak membuat kulit terasa tertarik setelah digunakan?",
+    "labels": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-PIXY-Perfect-Clean-Micellar-Water-Pink-100mL-Oil-Type-Pembersih-Wajah-i.48382819.28424532484?extraParams=%7B%22display_model_id%22%3A242550042740%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah produk ini memiliki aroma yang tidak mengganggu?",
+    "labels": [
+      1,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-PIXY-Uv-Primer-Sunscreen-SPF-50-Pa-Aqua-Gel-Hydra-Cream-i.48382819.24233416059?extraParams=%7B%22display_model_id%22%3A241185466037%2C%22model_selection_logic%22%3A2%7D": {
+    "question": "Apakah tekstur sunscreen ini ringan dan mudah diblend?",
+    "labels": [
+      1,
+      0,
+      1,
+      0,
+      1,
+      1,
+      0,
+      1,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-PIXY-White-Aqua-Gentle-Facial-Wash-100gr-Sabun-pembersih-wajah-i.48382819.29013758214?extraParams=%7B%22display_model_id%22%3A251757573594%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah produk yang diterima dalam kondisi baik?",
+    "labels": [
+      1,
+      1,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-POND'S-Vitamin-Micellar-Water-Brightening-Rose-Niacinamide-dan-Vit-C-D-Toxx-Charcoal-100ml-Ponds-Unilever-i.48382819.22455027160?extraParams=%7B%22display_model_id%22%3A187037050861%2C%22model_selection_logic%22%3A2%7D": {
+    "question": "Apakah fitur COD di toko ini sangat membantu pembeli yang tidak memiliki Shopeepay atau M-banking?",
+    "labels": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-PONDS-Hydra-Miracle-Ultra-Light-Biome-Gel-Gentle-Cleanser-90gr-Hydrating-Facial-Wash-i.48382819.28583129048?extraParams=%7B%22display_model_id%22%3A253158717111%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah barang yang dipesan sudah sampai dengan jumlah yang lengkap?",
+    "labels": [
+      1,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-PURBASARI-Glow-Facial-Foam-Moisturizing-Acne-Care-Oil-Control-Bright-Health-Skin-i.48382819.17196647881?extraParams=%7B%22display_model_id%22%3A158417523387%2C%22model_selection_logic%22%3A2%7D": {
+    "question": "Apakah aroma sabun ini enak?",
+    "labels": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-PURBASARI-Superfood-Scrub-Facial-Wash-Series-Pembersih-muka-Sabun-wajah-i.48382819.42351216358?extraParams=%7B%22display_model_id%22%3A270097460565%2C%22model_selection_logic%22%3A2%7D": {
+    "question": "Apakah produk ini dikemas dengan aman?",
+    "labels": [
+      1,
+      1,
+      0,
+      0,
+      0,
+      1,
+      1,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-QL-Cosmetic-Cleansing-Balm-Series-50-gram-Normal-To-Oily-Skin-Normal-To-Dry-Skin-Pembersih-Kulit-Wajah-i.48382819.22854733169?extraParams=%7B%22display_model_id%22%3A157015961632%2C%22model_selection_logic%22%3A2%7D": {
+    "question": "Apakah cleansing balm ini meleleh jadi minyak saat dipakai di wajah?",
+    "labels": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-QL-Cosmetic-Facial-Wash-Brightening-Body-Tone-Up-Lotion-150ml-Body-Lotion-Niacinamide-UV-Filter-BPOM-i.48382819.15980821814?extraParams=%7B%22display_model_id%22%3A116470618658%2C%22model_selection_logic%22%3A2%7D": {
+    "question": "Apakah aroma lotion ini menyengat?",
+    "labels": [
+      1,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-Rohto-Sunplay-UVA-UVB-SPF50-PA-SPF-39-PA-Sunblock-Sunscreen-Lotion-Rohto-i.48382819.4117686347?extraParams=%7B%22display_model_id%22%3A13758196450%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah tekstur sunscreen ini agak cair?",
+    "labels": [
+      1,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-SAFI-Age-Defy-Cream-Cleanser-50gr-100gr-(ADCC)-i.48382819.2348445153?extraParams=%7B%22display_model_id%22%3A4729827920%2C%22model_selection_logic%22%3A2%7D": {
+    "question": "Apakah tutup produknya diberi selotip agar tidak bocor?",
+    "labels": [
+      1,
+      0,
+      0,
+      1,
+      1,
+      0,
+      1,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-SAFI-Age-Defy-Gold-Water-Essence-30-100-Halal-BPOM-30ml-100ml-Full-size-Travel-size-i.48382819.2187888061?extraParams=%7B%22display_model_id%22%3A12200639122%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah produk ini membuat kulit menjadi lembab?",
+    "labels": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-SAFI-Age-Defy-Radiant-Gold-Water-Essence-102-ml-Toner-Essence-Perawatan-Wajah-i.48382819.27411693153?extraParams=%7B%22display_model_id%22%3A157469068889%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah produk Safi yang diterima original?",
+    "labels": [
+      1,
+      1,
+      1,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-SAFI-Hydra-Glow-Series-Hydrating-Water-Cleanser-Bank-Serum-Lock-Mist-Toning-Essence-Toner-Serum-Wajah-Facial-Wash-BPOM-i.48382819.16412486336?extraParams=%7B%22display_model_id%22%3A170431232598%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah produk dikirim menggunakan bubble wrap?",
+    "labels": [
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-SAFI-Ultimate-Bright-2-in-1-Cleanser-Toner-70mL-150mL-(-WE-pembersih-wajah-safi-)-i.48382819.2127068875?extraParams=%7B%22display_model_id%22%3A3913558892%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah produk yang dijual di sini original?",
+    "labels": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-SAFI-Ultimate-Bright-Light-Foam-Cleanser-100gr-Micellar-Gel-Cleanser-100-gr-Bio-Vit-C-Technology-i.48382819.25922246244?extraParams=%7B%22display_model_id%22%3A195007599779%2C%22model_selection_logic%22%3A2%7D": {
+    "question": "Apakah warna produk ini sudah kusam saat diterima?",
+    "labels": [
+      1,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-SAFI-Ultimate-Bright-Purifying-Cleanser-50g-100g-(sabun-cuci-muka-safi)-i.48382819.2143758616?extraParams=%7B%22display_model_id%22%3A3968805242%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah pengiriman produk ini cepat?",
+    "labels": [
+      1,
+      1,
+      1,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1,
+      1
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-SANIYE-Sunscreen-SPF-50-PA-50ml-UVA-UVB-Protect-Tahan-Lama-Extra-Moist-i.48382819.27751149925?extraParams=%7B%22display_model_id%22%3A250908075213%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah pesanan sudah sampai dan lengkap?",
+    "labels": [
+      1,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-SCARLETT-Whitening-Cloud-Facial-Foam-105ml-Pembersih-Wajah-Sabun-Cuci-Muka-i.48382819.27125075463?extraParams=%7B%22display_model_id%22%3A168693850464%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah pengiriman produknya cepat?",
+    "labels": [
+      1,
+      1,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-SCARLETT-Whitening-Facial-Wash-100ml-Face-Series-Cleansing-Pembersih-Wajah-BPOM-i.48382819.19961391419?extraParams=%7B%22display_model_id%22%3A193138071023%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah produknya masih tersegel saat diterima?",
+    "labels": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-SCARLETT-Whitening-Toner-Series-Toner-Wajah-Essence-BPOM-i.48382819.20661768417?extraParams=%7B%22display_model_id%22%3A213159616226%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Bagaimana pengemasan produknya?",
+    "labels": [
+      1,
+      0,
+      1,
+      1,
+      1,
+      0,
+      0,
+      1,
+      0,
+      1
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-SEA-MAKEUP-Acne-Clear-Micellar-Water-300ml-Pembersih-Wajah-Make-Up-Remover-Cleansing-Water-Kulit-Sensitif-Berjerawat-i.48382819.24681771910?extraParams=%7B%22display_model_id%22%3A232870716481%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah produk sampai dengan aman dan tidak lecet?",
+    "labels": [
+      1,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-SENKA-Perfect-Whip-Facial-Foam-50g-100g-120g-clay-white-fresh-anti-shine-collagen-acne-i.48382819.5820166177?extraParams=%7B%22display_model_id%22%3A14753983631%2C%22model_selection_logic%22%3A2%7D": {
+    "question": "Apakah Senka Perfect Whip varian clay ini cocok untuk kulit kering?",
+    "labels": [
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-SHINZUI-Whitessentials-Perfect-Essential-SkinCare-Moisturizer-Serum-Sunscreen-i.48382819.26729175150?extraParams=%7B%22display_model_id%22%3A280469655684%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah ada bonus atau freebie yang didapat saat pembelian?",
+    "labels": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-SKIN-AQUA-Nexta-Shield-UV-Essence-Serum-SPF-50-40gr-Daily-Protection-SKINAQUA-i.48382819.29611170624?extraParams=%7B%22display_model_id%22%3A223217042745%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah produk ini bisa menyebabkan jerawat?",
+    "labels": [
+      1,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-SKIN-AQUA-Sunscreen-Moisture-Whitening-Milk-Protection-against-UV-A-and-UV-B-i.48382819.29061392236?extraParams=%7B%22display_model_id%22%3A99645433421%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah tekstur sunscreen ini ringan?",
+    "labels": [
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-SKIN-AQUA-Tone-Up-UV-Sunscreen-Essence-SPF-50-PA-40gr-Mint-Green-Lavender-i.48382819.29762564749?extraParams=%7B%22display_model_id%22%3A223267996141%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah packingnya rapi?",
+    "labels": [
+      1,
+      0,
+      0,
+      1,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-SKINTIFIC-02-Hyaluronic-Acid-4D-Series-Essence-Toner-Hydrating-Serum-20-ml-100-ml-Perawatan-Wajah-BPOM-i.48382819.22207310674?extraParams=%7B%22display_model_id%22%3A107763788402%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah harga produk ini tetap bersahabat untuk repurchase?",
+    "labels": [
+      1,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-SKINTIFIC-10-Pure-Vitamin-C-Fresh-Brightening-Serum-Mencerahkan-Dark-Spot-Whitening-i.48382819.20282814770?extraParams=%7B%22display_model_id%22%3A177800686226%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah produk ini sudah dipakai berulang kali karena hasilnya bagus?",
+    "labels": [
+      1,
+      0,
+      0,
+      1,
+      0,
+      0,
+      1,
+      1,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-SKINTIFIC-12-Acid-Peeling-Solution-Serum-30ml-Eksfoliasi-Essence-Wajah-Mengangkat-Sel-Kulit-Mati-Exfoliating-Anti-Acne-i.48382819.28209426879?extraParams=%7B%22display_model_id%22%3A168386870126%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Bagaimana sensasi produk saat pemakaian pertama?",
+    "labels": [
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-SKINTIFIC-31-Amino-Acid-Ultra-Gentle-Cleansing-Mousse-100ml-Pembersih-Wajah-Facial-Cleanser-Sabun-Muka-Face-Wash-Foam-i.48382819.21764681510?extraParams=%7B%22display_model_id%22%3A230343015058%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah pengirimannya cepat?",
+    "labels": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      1,
+      1,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-SKINTIFIC-3X-Acid-Acne-Gel-Cleanser-120ml-Salicilyc-Acid-Face-Wash-Sabun-Cuci-Wajah-i.48382819.26411819801?extraParams=%7B%22display_model_id%22%3A187820667460%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah toko ini bisa dipercaya untuk berbelanja kembali?",
+    "labels": [
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      0,
+      0,
+      1,
+      1
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-SKINTIFIC-5X-Ceramide-Barrier-Serum-20ml-50ml-Merawat-skin-barrier-Serum-Mencerahkan-Dark-Spot-i.48382819.29812139460?extraParams=%7B%22display_model_id%22%3A256653072117%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah harganya terjangkau?",
+    "labels": [
+      1,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-SKINTIFIC-5X-Ceramide-Serum-Sunscreen-SPF50-PA-30ml-50ml-Sun-Repair-Invisible-Serum-Real-Protection-i.48382819.26260982347?extraParams=%7B%22display_model_id%22%3A197799535295%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah sunscreen ini bagus untuk digunakan?",
+    "labels": [
+      1,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-SKINTIFIC-All-Day-Light-Sunscreen-Mist-SPF-50-PA-50ml-70ml-120ml-Sunscreen-Spray-UV-Mist-Tone-Up-Sun-Shield-Sunscreen-Whitening-i.48382819.29960982566?extraParams=%7B%22display_model_id%22%3A197799571456%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah sunscreen spray ini cocok untuk dibawa travelling?",
+    "labels": [
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-SKINTIFIC-Aqua-Light-Daily-Sunscreen-SPF-35-PA-30g-50g-Sun-Screen-Sunblock-UVA-UVB-Broad-Spectrum-i.48382819.28060982746?extraParams=%7B%22display_model_id%22%3A233210505333%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah sunscreen ini membuat kulit menjadi lebih cerah?",
+    "labels": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-SKINTIFIC-Aqua-Light-Daily-Sunscreen-SPF-35-PA-30g-Sun-Screen-Sunblock-UVA-UVB-Broad-Spectrum-i.48382819.27123380058?extraParams=%7B%22display_model_id%22%3A223700983704%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah sunscreen ini cocok untuk wajah berjerawat?",
+    "labels": [
+      0,
+      0,
+      1
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-SKINTIFIC-Matte-Fit-Serum-Sunscreen-SPF50-PA-Sunblock-Badan-Sun-Stick-i.48382819.28511907713?extraParams=%7B%22display_model_id%22%3A69815741555%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah sunscreen ini memiliki efek tone up?",
+    "labels": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-SKINTIFIC-Niacinamide-Brightening-Essence-Toner-80ml-Glowing-Brightenin-Toner-Eksfoliasi-Wajah-Exfoliating-i.48382819.29212355198?extraParams=%7B%22display_model_id%22%3A158807497835%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah pengemasan produk sudah aman?",
+    "labels": [
+      0,
+      0,
+      1,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-SKINTIFIC-Niacinamide-Brightening-Serum-20ml-50ml-Serum-Mencerahkan-Dark-Spot-Tumpas-Komedo-anti-aging-i.48382819.29462352566?extraParams=%7B%22display_model_id%22%3A89652326452%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah produk ini bekerja dengan baik sesuai fungsinya?",
+    "labels": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-SKINTIFIC-Panthenol-Calming-and-Soothing-Series-Acne-Calming-Water-Gel-45g-Gentle-Gel-Cleanser-Acne-Gel-5X-Ceramide-Perawatan-Wajah-Berjerawat-i.48382819.23070193126?extraParams=%7B%22display_model_id%22%3A231748007741%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah produk ini cocok untuk membantu mengatasi jerawat?",
+    "labels": [
+      1,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-SKINTIFIC-Pure-Centella-Acne-Calming-Toner-80ml-Toner-Muka-Essence-BPOM-i.48382819.23137744810?extraParams=%7B%22display_model_id%22%3A231437834111%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah bubble wrap pada paketnya tebal?",
+    "labels": [
+      1,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-SKINTIFIC-Sunscreen-Series-Serum-Sunscreen-Mist-SPF-50-PA-5x-Ceramide-i.48382819.18164710523?extraParams=%7B%22display_model_id%22%3A166671193603%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah pengiriman pesanan cepat?",
+    "labels": [
+      1,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-SOMETHINC-Acnedot-Treatment-Series-Acne-Shot-Low-PH-Cleanser-Toner-Acne-Spot-Gel-i.48382819.16343576840?extraParams=%7B%22display_model_id%22%3A171698757019%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah tekstur produk ini berupa gel?",
+    "labels": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-SOMETHINC-Copy-Paste-Tinted-Sunscreen-SPF-40-PA-Skin-Tint-Hybrid-Sunscreen-Foundation-Non-Comedogenic-Breathable-Technology-i.48382819.25557837460?extraParams=%7B%22display_model_id%22%3A226367173452%2C%22model_selection_logic%22%3A2%7D": {
+    "question": "Bagaimana tekstur dari tinted sunscreen ini saat dipakai?",
+    "labels": [
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      1,
+      1,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-SOMETHINC-Omega-Butter-Deep-Cleansing-Balm-Cleansing-Balm-Pembersih-Make-Up-(%E2%9C%94BPOM)-i.48382819.11736422999?extraParams=%7B%22display_model_id%22%3A138233801669%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah cleansing balm ini efektif mengangkat makeup?",
+    "labels": [
+      1,
+      1,
+      1,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-SYB-AHA-Whitening-Booster-Body-Serum-5ml-moisturizing-Pemutih-Tubuh-Badan-BPOM-i.48382819.19839568889?extraParams=%7B%22display_model_id%22%3A174245286017%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah serum ini sudah menunjukkan perubahan setelah pemakaian satu bulan?",
+    "labels": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-SYB-BODY-SERUM-AHA-BRIGHTENING-ACNE-GLOW-JELLY-BOOSTER-RED-JELLY-BRIGHTENING-GLOW-HYDRATING-GLUTA-COLLAGEN-(%E2%9C%94%EF%B8%8FBPOM)-i.48382819.19210954127?extraParams=%7B%22display_model_id%22%3A173211122894%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah harga serum ini terjangkau?",
+    "labels": [
+      1,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-Skin-Aqua-UV-Whitening-Milk-SPF-50-PA--i.48382819.26474607137?extraParams=%7B%22display_model_id%22%3A158998129448%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah sunscreen ini mudah menyerap ke wajah?",
+    "labels": [
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-THE-FACE-Collagen-Series-Brightening-Soap-Lightening-Serum-Brightening-Toner-i.48382819.27513976269?extraParams=%7B%22display_model_id%22%3A39473944202%2C%22model_selection_logic%22%3A2%7D": {
+    "question": "Apakah produknya sesuai dengan pesanan?",
+    "labels": [
+      1
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-THE-FACE-Temulawak-Facial-Foam-100ml-With-Ekstrak-Temulawak-and-Niacinamide-Sabun-Pembersih-Wajah-i.48382819.28964072489?extraParams=%7B%22display_model_id%22%3A187878299088%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah harga produk di sini lebih murah dan sering ada voucher?",
+    "labels": [
+      1,
+      1,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-THE-FACE-Temulawak-Whitening-Serum-with-Glutathione-20ml-Serum-Perawatan-Kulit-Wajah-i.48382819.27313970409?extraParams=%7B%22display_model_id%22%3A168468049218%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah produknya dikemas dengan aman?",
+    "labels": [
+      1,
+      1,
+      1,
+      0,
+      1,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-THE-ORIGINOTE-Ceramella-Niaceramide-Sunscreen-Series-SPF50-PA-Serum-Sunscreen-Mist-Spray-Tabir-Surya-UVA-UVB-i.48382819.29861542970?extraParams=%7B%22display_model_id%22%3A195398364027%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah produk yang dijual original?",
+    "labels": [
+      1,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-THE-ORIGINOTE-Hyalurose-Micellar-Water-300ml-Pembersih-Wajah-Make-Up-Remover-i.48382819.28561547591?extraParams=%7B%22display_model_id%22%3A158795920713%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah produk ini cocok untuk kulit sensitif dan berjerawat?",
+    "labels": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-The-Originote-Ceraluronic-Essence-Toner-Toner-Melembabkan-Wajah-dan-Menjaga-Skin-Barrier-with-Ceramide-Hyaluronic-Acid-i.48382819.29412408771?extraParams=%7B%22display_model_id%22%3A256671075087%2C%22model_selection_logic%22%3A2%7D": {
+    "question": "Apakah toner ini ringan dan cepat meresap di kulit?",
+    "labels": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-The-Originote-Ceramella-Sunscreen-SPF50-PA-50gr-Melindungi-dari-Sinar-Matahari-i.48382819.29673986598?extraParams=%7B%22display_model_id%22%3A257503477500%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah sunscreen ini cocok untuk wajah berminyak dan berjerawat?",
+    "labels": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-The-Originote-Serum-Series-Gluta-Bright-B3-Peeling-Solution-Ceratides-Barrier-i.48382819.28112543692?extraParams=%7B%22display_model_id%22%3A241678310951%2C%22model_selection_logic%22%3A2%7D": {
+    "question": "Apakah serum ini cocok untuk pemula dan harganya terjangkau?",
+    "labels": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-VIVA-Micellar-Water-100ml-Series-Bright-Glow-Collagen-Advance-Sensitive-Care-Acne-Care-i.48382819.28020058866?extraParams=%7B%22display_model_id%22%3A128145652608%2C%22model_selection_logic%22%3A2%7D": {
+    "question": "Kenapa tanggal kadaluwarsa pada produk ini digores?",
+    "labels": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-VIVA-Sunscreen-Foundation-Alas-Bedak-sinar-matahari-UV-Filter-22g-i.48382819.6308647392?extraParams=%7B%22display_model_id%22%3A10574806898%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah komposisi produk ini efisien meskipun sederhana?",
+    "labels": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-Viva-Queen-Whitening-Advanced-Face-Serum-30ml-BPOM-Halal-i.48382819.7838656052?extraParams=%7B%22display_model_id%22%3A60031934501%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah serum ini cocok untuk kulit berjerawat?",
+    "labels": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-Viva-White-Clean-Mask-Refreshner-Face-Cleanser-Masker-50g-i.48382819.4602463355?extraParams=%7B%22display_model_id%22%3A8330753356%2C%22model_selection_logic%22%3A2%7D": {
+    "question": "Apakah harga produk Viva di toko ini terjangkau?",
+    "labels": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-WARDAH-5-Glycolic-Acid-3-Maltobionic-Acid-2-Succinic-Acid-Micro-Peeling-Serum-20ml-i.48382819.25491817049?extraParams=%7B%22display_model_id%22%3A227415099963%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah produk ini aman untuk ibu menyusui?",
+    "labels": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-WARDAH-8X-NMF-Amino-Gel-Cleanser-120ml-Vitamin-C-Calm-Soothe-Facial-Wash-Pembersih-Wajah-i.48382819.24035831535?extraParams=%7B%22display_model_id%22%3A128041036984%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah produk ini membuat kulit terasa tertarik setelah dipakai?",
+    "labels": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-WARDAH-Acnederm-Salicylic-Acid-Zinc-Acne-Clearing-Low-pH-Foaming-Cleanser-Facial-Wash-Pembersih-Wajah-Berjerawat-i.48382819.29511391625?extraParams=%7B%22display_model_id%22%3A197809174911%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah pemakaian rutin produk ini bisa membantu merawat jerawat dan menyembuhkan beruntusan?",
+    "labels": [
+      1,
+      0,
+      1,
+      0,
+      0,
+      1,
+      1,
+      1,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-WARDAH-C-Defense-Vitamin-C-Panthenol-Creamy-Wash-50-ml-Facial-Wash-with-HiGrade-Vit.C-Pembersih-Wajah-i.48382819.29172929563?extraParams=%7B%22display_model_id%22%3A252426408894%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah facial wash-nya beraroma jeruk?",
+    "labels": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-WARDAH-C-Defense-Vitamin-C-Panthenol-Creamy-Wash-Facial-Wash-with-HiGrade-Vit.C-Pembersih-Wajah-i.48382819.29310134056?extraParams=%7B%22display_model_id%22%3A147448516601%2C%22model_selection_logic%22%3A2%7D": {
+    "question": "Apakah produk ini tidak memiliki aroma seperti obat?",
+    "labels": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-WARDAH-Crystal-Secret-Dark-Spot-Brightening-Serum-20-ml-3-Tranexamic-Acid-Alpha-Arbutin-i.48382819.27810869653?extraParams=%7B%22display_model_id%22%3A256569217069%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah harga serum ini lebih murah dari harga biasanya?",
+    "labels": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-WARDAH-Crystal-Secret-Melting-Milk-Cleanser-100mL-Pembersih-Wajah-Natural-AHA-PHA-dan-Edelweiss-Extract-i.48382819.27660795337?extraParams=%7B%22display_model_id%22%3A98997413035%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Bagaimana kecepatan pengirimannya?",
+    "labels": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-WARDAH-Crystal-Secret-Micellar-Cleansing-Gel-95-ml-Micellar-untuk-kulit-berminyak-Pembersih-Muka-dengan-Extract-Edelweiss-i.48382819.28460869361?extraParams=%7B%22display_model_id%22%3A233206475659%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah produk ini memberikan sensasi dingin dan nyaman di wajah?",
+    "labels": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-WARDAH-Hydra-Rose-Gel-Cleanser-100-mL-Sabun-Cuci-Muka-Gentle-Acid-NMF-Amino-Pentavitin-i.48382819.28410423710?extraParams=%7B%22display_model_id%22%3A246541988495%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah sabun muka ini tidak membuat wajah kering?",
+    "labels": [
+      1,
+      0,
+      0,
+      0,
+      1,
+      1,
+      0,
+      1,
+      1,
+      1
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-WARDAH-Hydra-Rose-Micro-Gel-Serum-30ml-Face-Serum-Hydrating-Rose-Oil-Melembabkan-Hidrasi-i.48382819.27460610028?extraParams=%7B%22display_model_id%22%3A195375835607%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah produk ini baik digunakan saat cuaca panas agar kulit tidak kering?",
+    "labels": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-WARDAH-Hydra-Rose-Series-Dewy-Aqua-Day-Gel-Moisture-Rich-Night-Gel-Foam-Cleanser-Toner-i.48382819.4551138869?extraParams=%7B%22display_model_id%22%3A226367850468%2C%22model_selection_logic%22%3A2%7D": {
+    "question": "Apakah produk ini membantu mengurangi kemerahan dan jerawat pada kulit sensitif?",
+    "labels": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-WARDAH-Lightening-Cleansing-Milk-100ml-Cleanser-Niacinamide-Pembersih-Wajah-Mencerahkan-i.48382819.27810505754?extraParams=%7B%22display_model_id%22%3A166668603502%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah warna produk ini putih?",
+    "labels": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-WARDAH-Lightening-Oil-Infused-Micellar-Water-Make-Up-Remover-Mencerahkan-dan-Melembabkan-i.48382819.28710510892?extraParams=%7B%22display_model_id%22%3A147453336124%2C%22model_selection_logic%22%3A2%7D": {
+    "question": "Apakah produk micellar water ini original?",
+    "labels": [
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-WARDAH-Lip-Barrier-Sunscreen-SPF-30-Protect-Care-12H-Re-Hydration-i.48382819.26764299629?extraParams=%7B%22display_model_id%22%3A118481046214%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah lip balm ini tidak memiliki aroma, warna, maupun rasa?",
+    "labels": [
+      1,
+      0,
+      0,
+      0,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-WARDAH-Micellar-Water-Bigger-Pack-240ml-400ml-Perfect-Bright-Lightening-Acnederm-Natur-Daily-i.48382819.25086794778?extraParams=%7B%22display_model_id%22%3A168462481262%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah pengiriman pesanan sampai dengan cepat?",
+    "labels": [
+      1,
+      0,
+      1,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-WARDAH-Nature-Daily-Aloe-Hydramild-Facial-Wash-100ml-60ml-Sabun-Pembersih-Wajah-Gel-Cleanser-i.48382819.28360902819?extraParams=%7B%22display_model_id%22%3A138042988437%2C%22model_selection_logic%22%3A2%7D": {
+    "question": "Apakah produk ini cukup menghidrasi kulit?",
+    "labels": [
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-WARDAH-Nature-Daily-Aloe-Seaweed-Micellar-Water-100ml-240ml-Pembersih-Wajah-Tanpa-Bilas-yang-Gentle-Bahkan-Untuk-Kulit-Sensitif-i.48382819.25486127356?extraParams=%7B%22display_model_id%22%3A69814502387%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah packingnya aman dan rapi?",
+    "labels": [
+      1,
+      1,
+      0,
+      1,
+      1,
+      0,
+      1,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-WARDAH-Nature-Daily-Mineral-Clarifying-Facial-Foam-60ml-100ml-Facial-Wash-Untuk-Membersihkan-Debu-dan-Minyak-i.48382819.29761617725?extraParams=%7B%22display_model_id%22%3A215400062589%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah facial foam ini cocok untuk kulit sensitif?",
+    "labels": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-WARDAH-Perfect-Bright-Perfectyl-Vitamin-C-Pore-Perfecting-C-Glow-Serum-Peeling-Serum-i.48382819.26127746511?extraParams=%7B%22display_model_id%22%3A178741024175%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah produk Wardah memiliki kualitas yang baik?",
+    "labels": [
+      1,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-WARDAH-Renew-You-Intensive-Serum-15ml-30ml-Microcapsule-Retinol-Bakuchiol-Serum-Anti-Aging-Samarkan-Garis-Halus-i.48382819.29360691694?extraParams=%7B%22display_model_id%22%3A217792436131%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah serum ini membuat wajah menjadi cerah?",
+    "labels": [
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-WARDAH-UV-Shield-Acne-Calming-Sunscreen-Moisturizer-SPF-35-PA-Jerawat-dan-Bekas-i.48382819.28910821653?extraParams=%7B%22display_model_id%22%3A129063151865%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah tekstur sunscreen Wardah ini cepat menyerap di kulit?",
+    "labels": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-WARDAH-UV-Shield-Acne-Calming-Sunscreen-SPF-50-PA-Sun-Screen-Skin-Protection-Perlindungan-Kulit-UVA-UVB-i.48382819.29110888199?extraParams=%7B%22display_model_id%22%3A168411371945%2C%22model_selection_logic%22%3A2%7D": {
+    "question": "Apakah sunscreen Wardah ini cocok untuk kulit berjerawat?",
+    "labels": [
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-WARDAH-UV-Shield-Airy-Smooth-Sunscreen-Serum-SPF-50-PA-Sun-Screen-Wajah-Matte-dan-Ringan-Mencerahkan-Memperbaiki-Tekstur-Kulit-Skin-Protection-Perlindungan-Kulit-i.48382819.27410874067?extraParams=%7B%22display_model_id%22%3A256569147450%2C%22model_selection_logic%22%3A2%7D": {
+    "question": "Apakah sunscreen ini ringan untuk kulit berminyak?",
+    "labels": [
+      1,
+      0,
+      0,
+      1,
+      0,
+      0,
+      1,
+      0,
+      1,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-WARDAH-UV-Shield-Bright-C-Hydrating-Sunscreen-Serum-SPF-35-PA-40ml-i.48382819.25685866602?extraParams=%7B%22display_model_id%22%3A226755436825%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah sunscreen ini perlu diratakan dulu sebelum diaplikasikan?",
+    "labels": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-WARDAH-UV-Shield-Light-Matte-Sunscreen-Stick-SPF-50-PA-Sun-Screen-Wajah-Sebum-Control-Skin-Protection-Perlindungan-Kulit-UVA-UVB-i.48382819.28360886670?extraParams=%7B%22display_model_id%22%3A256569611802%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah ada bonus ikat rambut gratis yang diberikan?",
+    "labels": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-WARDAH-UV-Shield-Physical-Sunscreen-Serum-SPF-50-PA-Sun-Screen-Wajah-Ringan-Tidak-Whitecast-Skin-Protection-Perlindungan-Kulit-i.48382819.27060887530?extraParams=%7B%22display_model_id%22%3A108452547864%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah sunscreen ini melembabkan wajah tanpa membuat kulit terasa berminyak atau sumuk?",
+    "labels": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-WARDAH-UV-Shield-Tone-Up-Sunscreen-SPF-50-PA-Physical-Sunscreen-Wajah-Make-Up-Primer-Corrector-i.48382819.26160705621?extraParams=%7B%22display_model_id%22%3A217792683893%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah harga produknya lebih murah dibanding seller lain?",
+    "labels": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-WHITELAB-A-Dose-Glowing-Serum-20ml-Serum-Arbutin-Pencerah-Wajah-Atasi-Noda-Flek-Hitam-Dark-Spot-Bekas-Jerawat-i.48382819.28211160281?extraParams=%7B%22display_model_id%22%3A251588029772%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah serum ini bisa membuat wajah menjadi cerah?",
+    "labels": [
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      1,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-WHITELAB-Sunscreen-Gel-SPF-50-PA-Ultralight-30g-Sunblock-Anti-Komedo-UVA-UVB-i.48382819.28261271925?extraParams=%7B%22display_model_id%22%3A256593132306%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah reviewer bermaksud untuk membeli produk ini lagi jika cocok?",
+    "labels": [
+      1,
+      0,
+      1,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-Wardah-2-Argireline-Peptide-MatrixylTM-3000-Firm-Lift-Essence-Toner-50ml-100ml-Anti-Aging-Mencegah-Penuaan-Dini-Mengencangkan-Kulit-Meningkatkan-Elastisitas-Kulit-i.48382819.29560610661?extraParams=%7B%22display_model_id%22%3A223197908001%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah tekstur tonernya kental dan mudah menyerap ke kulit?",
+    "labels": [
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-Wardah-Acnederm-Acne-Care-Serum-15ml-Serum-Wajah-i.48382819.29410303622?extraParams=%7B%22display_model_id%22%3A139058015525%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah harga serum ini lebih mahal dibandingkan serum Wardah lainnya?",
+    "labels": [
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-Wardah-Symradiance-399-All-Series-Moisturizer-Gel-Serum-Exfoliasi-Wajah-i.48382819.28327259976?extraParams=%7B%22display_model_id%22%3A188243200117%2C%22model_selection_logic%22%3A2%7D": {
+    "question": "Apakah produk ini membantu memperbaiki skin barrier?",
+    "labels": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-XI-XIU-Face-Serum-Vitamin-C-Anti-Acne-Whitening-Gold-20-ml-Vit-C-Anti-Jerawat-Xixiu-i.48382819.5867672805?extraParams=%7B%22display_model_id%22%3A34454706875%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah serum ini harganya terjangkau tapi tetap efektif?",
+    "labels": [
+      1,
+      1,
+      0,
+      0,
+      1,
+      1,
+      1,
+      0,
+      1,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-YOU-12-Acid-Intensive-Peeling-Serum-20ml-30ml-AHA-BHA-PHA-Serum-Eksfoliasi-i.48382819.26270889709?extraParams=%7B%22display_model_id%22%3A247271058511%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah pengguna berharap produk ini cocok untuk kulit wajahnya?",
+    "labels": [
+      1,
+      1,
+      0,
+      1,
+      1,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-YOU-Hy!-Amino-Glowing-Gentle-Cleansing-Facial-Wash-100g-Sabun-Cuci-Muka-i.48382819.26268486869?extraParams=%7B%22display_model_id%22%3A185580226681%2C%22model_selection_logic%22%3A2%7D": {
+    "question": "Apakah pengirimannya cepat?",
+    "labels": [
+      1,
+      1,
+      0,
+      0,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-YOU-Radiance-Glow-Illuminating-Serum-Brightening-Vitamin-C-Niacinamide-Gentle-Glowing-Skin-i.48382819.25237974593?extraParams=%7B%22display_model_id%22%3A233421965462%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah bonusnya banyak?",
+    "labels": [
+      1
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-YOU-Sunbrella-2-Niacinamide-Brightening-Sunscreen-SPF50-PA--i.48382819.27129810807?extraParams=%7B%22display_model_id%22%3A208318132349%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah sunscreen ini cocok untuk kulit sawo matang ke arah gelap?",
+    "labels": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-YOU-Sunbrella-Daily-Defense-Sunscreen-Serum-SPF30-30ml-Tabir-Surya-UVA-UVB-Blue-Light-Lightweight-Skincare-Dry-Skin-i.48382819.26462922163?extraParams=%7B%22display_model_id%22%3A195433079595%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Bagaimana hasil akhir (finishing) sunscreen ini di kulit?",
+    "labels": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-YOU-Sunbrella-Intensive-Care-Watery-Sunscreen-SPF-50-PA-30ml-Sensitive-Acne-Skin-i.48382819.19191342512?extraParams=%7B%22display_model_id%22%3A158303702550%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah penjualnya amanah?",
+    "labels": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-YOU-Sunbrella-Pro-Acnecare-Shield-Sunscreen-SPF-50-PA-Sunscreen-Kulit-Berjerawat-Acne-Prone-Skin-i.48382819.27019461298?extraParams=%7B%22display_model_id%22%3A215607347648%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah harganya sangat terjangkau?",
+    "labels": [
+      1,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-YOU-Sunbrella-Pro-Gentlecare-Physical-Sunscreen-SPF-30-PA-Sunscreen-anak-diatas-3-Tahun-i.48382819.26369461340?extraParams=%7B%22display_model_id%22%3A242165093291%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah sunscreen ini susah di-blend?",
+    "labels": [
+      1
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-YOU-Sunbrella-Sunscreen-Sunscreen-Serum-Sunscreen-Spray-Elixir-Sunscreen-Tone-Up-Uv-SPF-30-PA-SPF-50-PA-All-Skin-Type-i.48382819.20191382503?extraParams=%7B%22display_model_id%22%3A146957083118%2C%22model_selection_logic%22%3A2%7D": {
+    "question": "Apakah produk yang dijual di toko ini original?",
+    "labels": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-YOU-Sunbrella-Tone-Up-UV-Elixir-Sunscreen-SPF50-PA-Tabir-Surya-Mencerahkan-dan-Menghidrasi-i.48382819.24236662728?extraParams=%7B%22display_model_id%22%3A246704811056%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah tone up pada sunscreen ini bagus?",
+    "labels": [
+      1,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      1
+    ]
+  },
+  "https://shopee.co.id/%E2%9D%A4-BELIA-%E2%9D%A4-YOU-Sunbrella-Triple-UV-Elixir-Sunscreen-SPF50-PA-Tabir-Surya-Oil-Control-untuk-Kulit-Berminyak-Oily-Skin-i.48382819.26212917571?extraParams=%7B%22display_model_id%22%3A246704842867%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah pembeli cocok memakai varian biru dari produk ini?",
+    "labels": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/-BELIA-ACNES-Natural-Care-Oil-Control-Series-Milk-Cleanser-Toner-Cream-jerawat-Rohto-i.48382819.2392997137?extraParams=%7B%22display_model_id%22%3A12657707330%2C%22model_selection_logic%22%3A2%7D": {
+    "question": "Apakah produk ini cocok untuk kulit berminyak?",
+    "labels": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0
+    ]
+  },
+  "https://shopee.co.id/-BELIA-AMATERASUN-Sunscreen-Series-UV-Serum-Transparant-UV-Body-Sunscreen-Sunshield-Gel-i.48382819.29151939296?extraParams=%7B%22display_model_id%22%3A166510670402%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah sunscreen ini menyebabkan komedo jika tidak double cleansing di malam hari?",
+    "labels": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/-BELIA-ANIMATE-Skincare-Package-5-IN-1-Series-Free-Pouch-Acne-Solution-Glowing-Barrier-Whitening-Day-Cream-Night-Cream-toner-Cleanser-i.48382819.23960777451?extraParams=%7B%22display_model_id%22%3A197143606965%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah pengiriman pesanan lebih cepat dari estimasi?",
+    "labels": [
+      1,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/-BELIA-AZARINE-Hydrasoothe-Sunscreen-Gel-SPF45-PA-50ml-30ml-LOLOS-UJI-INVIVO-INVITRO-BEST-SELLER-sunscreen-kulit-berminyak-Sunblock-Tabir-Surya-i.48382819.25985972977?extraParams=%7B%22display_model_id%22%3A223214483838%2C%22model_selection_logic%22%3A2%7D": {
+    "question": "Apakah sunscreen ini cocok dan memberikan hasil bagus untuk kulit sensitif?",
+    "labels": [
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/-BELIA-AZARINE-Intense-Acne-Repair-Series-Acne-Gentle-Cleansing-Foam-Acne-Spot-Gel-i.48382819.7159351197?extraParams=%7B%22display_model_id%22%3A48343338772%2C%22model_selection_logic%22%3A2%7D": {
+    "question": "Apakah jerawat menjadi kering setelah pemakaian produk ini?",
+    "labels": [
+      1,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/-BELIA-Acnes-Creamy-Wash-Foaming-Washing-Bar-50g-80g-100g-Sabun-cuci-muka-anti-jerawat-Rohto-i.48382819.2374535299?extraParams=%7B%22display_model_id%22%3A258631074096%2C%22model_selection_logic%22%3A2%7D": {
+    "question": "Apakah sabun cuci muka ini memiliki busa yang lembut?",
+    "labels": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/-BELIA-CARASUN-Solar-Smart-UV-Protector-Sunscreen-SPF-45-PA-70mL-BPOM-i.48382819.18772451238?extraParams=%7B%22display_model_id%22%3A230859962063%2C%22model_selection_logic%22%3A2%7D": {
+    "question": "Apakah sunscreen ini cepat meresap di kulit?",
+    "labels": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+    ]
+  },
+  "https://shopee.co.id/-BELIA-CARASUN-Solar-Smart-UV-Protector-Sunscreen-SPF-45-PA-SPF-50-PA-8ml-30ml-70ml-i.48382819.6090961341?extraParams=%7B%22display_model_id%22%3A157412063547%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah tekstur sunscreen ini mudah meresap ke kulit dan tidak meninggalkan whitecast?",
+    "labels": [
+      1,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/-BELIA-CETAPHIL-59ml-118ml-236ml-473ml-1000ml-GENTLE-Skin-Cleanser-Facial-Wash-Pembersih-Muka-i.48382819.1902383839?extraParams=%7B%22display_model_id%22%3A3252736263%2C%22model_selection_logic%22%3A2%7D": {
+    "question": "Apakah kemasan produk ini menggunakan bubble wrap yang tebal?",
+    "labels": [
+      1,
+      0,
+      1,
+      0,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/-BELIA-CETAPHIL-Gentle-Skin-Cleanser-1000ml-Sabun-Pembersih-Muka-Untuk-Segala-Jenis-Kulit-i.48382819.28872243529?extraParams=%7B%22display_model_id%22%3A247378775545%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah produk ini cocok untuk stok penggunaan jangka panjang?",
+    "labels": [
+      1,
+      0
+    ]
+  },
+  "https://shopee.co.id/-BELIA-CETAPHIL-Gentle-Skin-Cleanser-500ml-Sabun-Pembersih-Muka-Untuk-Segala-Jenis-Kulit-i.48382819.27522239099?extraParams=%7B%22display_model_id%22%3A247378710576%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah produk ini menjadi pilihan favorit untuk dibeli berulang kali?",
+    "labels": [
+      1
+    ]
+  },
+  "https://shopee.co.id/-BELIA-CETAPHIL-Series-Gentle-Skin-Cleanser-Calendula-Bright-Healthy-Radiance-i.48382819.1914709240?extraParams=%7B%22display_model_id%22%3A3848276534%2C%22model_selection_logic%22%3A2%7D": {
+    "question": "Apakah packingnya aman?",
+    "labels": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      1,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/-BELIA-EIEM-Beauty-H2O-Micellar-Water-Series-150ml-303ml-Glowcolic-Ceramild-i.48382819.26875141743?extraParams=%7B%22display_model_id%22%3A355608938329%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah micellar water-nya tidak membuat perih di mata?",
+    "labels": [
+      1,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/-BELIA-EMINA-Bright-Stuff-Series-Acne-Prone-Face-Wash-Toner-Moisturizer-Tone-Up-Serum-i.48382819.4615947696?extraParams=%7B%22display_model_id%22%3A13313473756%2C%22model_selection_logic%22%3A2%7D": {
+    "question": "Apakah moisturizer ini membuat kulit terasa lembab dan tidak kering?",
+    "labels": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/-BELIA-FAIR-LOVELY-GLOW-LOVELY-Brightening-Facial-Foam-SACHET-Day-Cream-UNILEVER-i.48382819.22434745042?extraParams=%7B%22display_model_id%22%3A301273706640%2C%22model_selection_logic%22%3A2%7D": {
+    "question": "Apakah harganya terjangkau?",
+    "labels": [
+      1,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/-BELIA-GARNIER-Micellar-Water-Pink-Blue-Bi-phase-Oil-Salicylic-Blue-BHA-Vit-C-400-ml-Skin-Care-i.48382819.22432762536?extraParams=%7B%22display_model_id%22%3A345076826564%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah bubble wrap pada pengemasan produk ini tebal?",
+    "labels": [
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/-BELIA-GLAD2GLOW-Blueberry-Ceramide-Low-pH-Gel-Cleanser-Acne-Prone-Skin-Sabun-Cuci-Muka-i.48382819.25786216645?extraParams=%7B%22display_model_id%22%3A233237605049%2C%22model_selection_logic%22%3A2%7D": {
+    "question": "Pengirimannya cepat banget, ya?",
+    "labels": [
+      1,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      0
+    ]
+  },
+  "https://shopee.co.id/-BELIA-GLAD2GLOW-Centella-Salicylic-Acid-Acne-Gel-Cleanser-70ml-Facial-Wash-Sabun-Cuci-Muka-i.48382819.26761606098?extraParams=%7B%22display_model_id%22%3A272212801088%2C%22model_selection_logic%22%3A2%7D": {
+    "question": "Apakah kemasan produk aman dari kebocoran?",
+    "labels": [
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/-BELIA-GLAD2GLOW-Micellar-Water-300ml-Pembersih-Wajah-MakeUp-Remover-Cleansing-Water-i.48382819.27671617853?extraParams=%7B%22display_model_id%22%3A157617238567%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah produk ini memberikan hasil yang nyata setelah pemakaian?",
+    "labels": [
+      1,
+      0,
+      0,
+      1,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/-BELIA-GLAD2GLOW-Serum-Series-Peeling-Solution-Pomegranate-Niacinamide-Centella-Salicylic-Acid-Acne-Yuja-Symwhite-377-Dark-Spot-Vitamin-C-Jeju-Tangerine-Peach-Retinol-Perawatan-Wajah-i.48382819.25236220194?extraParams=%7B%22display_model_id%22%3A241624027647%2C%22model_selection_logic%22%3A2%7D": {
+    "question": "Apakah serum ini membuat wajah lebih cerah dan halus?",
+    "labels": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/-BELIA-Garnier-Light-Complete-Bright-Complete-Brightening-Foam-Scrub-Sabun-Cuci-Muka-i.48382819.5877846600?extraParams=%7B%22display_model_id%22%3A43533037777%2C%22model_selection_logic%22%3A2%7D": {
+    "question": "Apakah setiap kemasan diberi selotip kertas agar tidak lengket?",
+    "labels": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/-BELIA-HADA-LABO-All-Series-Gokujyun-ShiroJyun-GokuJyun-Alpha-ROHTO-i.48382819.2510572963?extraParams=%7B%22display_model_id%22%3A5403498348%2C%22model_selection_logic%22%3A2%7D": {
+    "question": "Apakah produk Hadalabo ini bikin kulit terasa lebih lembap dan nggak ketarik setelah dipakai?",
+    "labels": [
+      1,
+      0,
+      1,
+      1,
+      1,
+      1,
+      0,
+      1,
+      1,
+      0
+    ]
+  },
+  "https://shopee.co.id/-BELIA-HADA-LABO-Gokujyun-Alpha-Premium-Ultimate-Anti-Aging-Serum-20-mL-Serum-Wajah-i.48382819.28071223322?extraParams=%7B%22display_model_id%22%3A185657327125%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah produk dikirim dengan pengemasan yang aman?",
+    "labels": [
+      1,
+      1
+    ]
+  },
+  "https://shopee.co.id/-BELIA-HADA-LABO-Gokujyun-Moisturising-Face-Wash-100gr-50gr-Moisturizing-and-lifting-dirt-and-oil-i.48382819.27713953145?extraParams=%7B%22display_model_id%22%3A251771926174%2C%22model_selection_logic%22%3A2%7D": {
+    "question": "Apakah sabun muka ini membuat kulit tetap lembap dan tidak terasa kering setelah dipakai?",
+    "labels": [
+      1,
+      0,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1
+    ]
+  },
+  "https://shopee.co.id/-BELIA-HADA-LABO-Gokujyun-Premium-Ultimate-Moisturizing-Serum-20-mL-Serum-Wajah-i.48382819.26421579116?extraParams=%7B%22display_model_id%22%3A166881720479%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah pengemasan produknya bagus dan aman?",
+    "labels": [
+      1,
+      1,
+      0
+    ]
+  },
+  "https://shopee.co.id/-BELIA-HADA-LABO-Shirojyun-Ultimate-Whitening-Face-Wash-50gr-100gr-Removes-dirt-and-oil-from-the-skin-while-bright-i.48382819.29714021796?extraParams=%7B%22display_model_id%22%3A197877410994%2C%22model_selection_logic%22%3A2%7D": {
+    "question": "Apakah face wash ini bikin wajah terasa licin saat dipakai?",
+    "labels": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/-BELIA-HANASUI-Skincare-Series-Collagen-Water-Acne-Expert-Glow-Expert-i.48382819.4390455097?extraParams=%7B%22display_model_id%22%3A75700038223%2C%22model_selection_logic%22%3A2%7D": {
+    "question": "Apakah tekstur produk ini ringan dan cepat meresap ke kulit?",
+    "labels": [
+      1,
+      1,
+      0,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1
+    ]
+  },
+  "https://shopee.co.id/-BELIA-Himalaya-All-Series-50-100-150-Purifying-Neem-Face-Wash-Oil-Foam-Aloe-Scrub-Mask-Toner-i.48382819.4338482252?extraParams=%7B%22display_model_id%22%3A60019687254%2C%22model_selection_logic%22%3A2%7D": {
+    "question": "Apakah produk ini cocok untuk kulit berjerawat dan berminyak?",
+    "labels": [
+      1,
+      1,
+      1,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/-BELIA-IMPLORA-Face-Serum-24K-Gold-Hydrating-Acne-Peeling-Midnight-sunscreen-i.48382819.10920315901?extraParams=%7B%22display_model_id%22%3A26896114797%2C%22model_selection_logic%22%3A2%7D": {
+    "question": "Apakah sunscreen ini cocok untuk kulit remaja yang rentan berjerawat?",
+    "labels": [
+      1,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/-BELIA-IMPLORA-Perfect-Shield-Sunscreen-SPF-40-PA-50ml-UV-A-B-Filter-Tabir-Surya-Sunblock-i.48382819.23264897627?extraParams=%7B%22display_model_id%22%3A166690013294%2C%22model_selection_logic%22%3A2%7D": {
+    "question": "Apakah sunscreen ini cepat menyerap saat diaplikasikan ke kulit?",
+    "labels": [
+      1,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/-BELIA-IMPLORA-Perfect-Shield-Sunscreen-SPF-40-PA-SPF-30-PA-SPF-50-PA--i.48382819.21546398225?extraParams=%7B%22display_model_id%22%3A202341869282%2C%22model_selection_logic%22%3A2%7D": {
+    "question": "Apakah tekstur sunscreen ini cepat merata saat diaplikasikan?",
+    "labels": [
+      1,
+      1,
+      0,
+      0,
+      0,
+      1,
+      1,
+      0,
+      0,
+      1
+    ]
+  },
+  "https://shopee.co.id/-BELIA-KAHF-Face-Wash-Series-Sabun-Pembersih-Wajah-Pria-Kulit-Cerah-Bebas-Kusam-Untuk-Jerawat-i.48382819.28110773968?extraParams=%7B%22display_model_id%22%3A119259465295%2C%22model_selection_logic%22%3A2%7D": {
+    "question": "Apakah pesanan dipacking dengan double bubble wrap?",
+    "labels": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/-BELIA-KAHF-Sunscreen-Series-30ml-40ml-22g-Acne-Calming-Bright-Fresh-Sunscreen-Serum-SPF-50-SPF-35-Invisible-Matte-Sunscreen-Stick-SPF-50-i.48382819.24835869344?extraParams=%7B%22display_model_id%22%3A217795396152%2C%22model_selection_logic%22%3A2%7D": {
+    "question": "Apakah pengiriman cepat dan packing aman dengan bubble wrap?",
+    "labels": [
+      1,
+      1,
+      0,
+      0,
+      1,
+      0,
+      1,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/-BELIA-L'Oreal-UV-Defender-Protector-SPF-50-Sunscreen-loreal-Sunblock-Sun-Repair-Invisible-Serum-i.48382819.2132483990?extraParams=%7B%22display_model_id%22%3A157020621152%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah harga sunscreen L'Oreal di sini jauh lebih murah dari biasanya?",
+    "labels": [
+      1,
+      1,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1
+    ]
+  },
+  "https://shopee.co.id/-BELIA-LABORE-DERMALAB-REVOLUTIONAIRE-Gentle-Biome-Biome-Repair-Protect-Toner-Barrier-Cream-Physical-Sunscreen-Revive-Cream-i.48382819.13862524752?extraParams=%7B%22display_model_id%22%3A48061031662%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah packing produk dari toko Belia selalu tebal dan aman?",
+    "labels": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/-BELIA-LABORE-DERMALAB-REVOLUTIONAIRE-GentleBiomeTM-Mild-Cleanser-225-ml-Pembersih-Muka-Face-Wash-Gentle-untuk-Kulit-Sensitive-i.48382819.28662080953?extraParams=%7B%22display_model_id%22%3A157474244252%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah produknya original?",
+    "labels": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/-BELIA-LABORE-Physical-Sunscreen-SPF-50-PA-Travel-Size-10ml-50ml-100ml-Mineral-Sunscreen-Wajah-i.48382819.28223655801?extraParams=%7B%22display_model_id%22%3A176922228876%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Bagaimana tekstur sunscreen ini saat diaplikasikan ke wajah?",
+    "labels": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/-BELIA-LIGHT-by-Wardah-Low-pH-Nano-Niacinamide-Hyaluronic-Zinc-Whip-Facial-Foam-50-100ml-i.48382819.28360821859?extraParams=%7B%22display_model_id%22%3A205380525646%2C%22model_selection_logic%22%3A2%7D": {
+    "question": "Apakah produk ini tidak menyebabkan breakout?",
+    "labels": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/-BELIA-LIGHT-by-Wardah-Low-pH-Nano-Niacinamide-Low-Molecular-Hyaluronic-Gentle-Facial-Wash-100-50-ml-i.48382819.28860510894?extraParams=%7B%22display_model_id%22%3A139060167249%2C%22model_selection_logic%22%3A2%7D": {
+    "question": "Apakah facial wash ini membantu memperbaiki skin barrier?",
+    "labels": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/-BELIA-MADAME-GIE-Protect-Me-SUNSCREEN-SPF-30-SPF-50-PA-10ml-i.48382819.5416122121?extraParams=%7B%22display_model_id%22%3A136017316746%2C%22model_selection_logic%22%3A2%7D": {
+    "question": "Apakah tekstur sunscreen ini terasa ringan saat dipakai?",
+    "labels": [
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1,
+      1
+    ]
+  },
+  "https://shopee.co.id/-BELIA-MARINA-Expert-White-Glow-Bright-Booster-Whip-Facial-Foam-Perfecting-Glow-Face-Cream-i.48382819.28558984141?extraParams=%7B%22display_model_id%22%3A159002021425%2C%22model_selection_logic%22%3A2%7D": {
+    "question": "Apakah bubble wrap-nya tebal sehingga aman dari kebocoran?",
+    "labels": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/-BELIA-MARINA-Expert-White-Glow-Daily-UV-Shield-Face-Sunscreen-Hydra-Lock-Acne-Clear--i.48382819.27124936547?extraParams=%7B%22display_model_id%22%3A340892726265%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah pengirimannya cepat?",
+    "labels": [
+      1,
+      1
+    ]
+  },
+  "https://shopee.co.id/-BELIA-MARINA-UV-White-Sunblock-SPF-30-85ml-170ml-UVB-dan-UVA-protection-Vit-B3-E-Sunscreen-i.48382819.29157849844?extraParams=%7B%22display_model_id%22%3A197721781529%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah sunblock Marina UV White cocok untuk kulit sensitif?",
+    "labels": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/-BELIA-N'PURE-Centella-Asiatica-Cica-Series-Toner-Essence-Face-Wash-Cica-Stater-Kit-i.48382819.9790077516?extraParams=%7B%22display_model_id%22%3A128453224183%2C%22model_selection_logic%22%3A2%7D": {
+    "question": "Apakah tekstur Npure ini lembut dan tidak menyebabkan iritasi pada kulit?",
+    "labels": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/-BELIA-NATUR-E-Advanced-Intensive-Boosting-Essence-Toner-100mL-Toner-Wajah-Melembabkan-dan-Menjaga-Elastisitas-Kulit-i.48382819.28471930036?extraParams=%7B%22display_model_id%22%3A242354390717%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah barang yang diterima original?",
+    "labels": [
+      1
+    ]
+  },
+  "https://shopee.co.id/-BELIA-NIVEA-MEN-Deep-Acne-Attack-100ml-Scrub-Mud-Foam-Facial-Wash-Facial-Foam-Sabun-Cuci-Wajah-i.48382819.11457611188?extraParams=%7B%22display_model_id%22%3A131127417105%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah penjual langsung mengonfirmasi pesanan setelah pembayaran?",
+    "labels": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/-BELIA-NIVEA-MEN-Extra-White-Dark-Spot-Minimizer-Acne-Oil-Clear-Deep-Acne-Attack-Halal-i.48382819.5659180660?extraParams=%7B%22display_model_id%22%3A41530501137%2C%22model_selection_logic%22%3A2%7D": {
+    "question": "Apakah produknya dijamin original?",
+    "labels": [
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/-BELIA-NIVEA-Sparkling-White-Whitening-Facial-Foam-50-100-(-BPOM-)-i.48382819.5759201266?extraParams=%7B%22display_model_id%22%3A61532221320%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah packingnya aman dengan bubble wrap yang tebal?",
+    "labels": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      1,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/-BELIA-OMG-Oh-My-Glow-Bright-Tone-Up-Acne-Oil-Control-UV-Barrier-Sunscreen-SPF-50-PA-25ml-Mencerahkan-i.48382819.18892940884?extraParams=%7B%22display_model_id%22%3A99435024976%2C%22model_selection_logic%22%3A2%7D": {
+    "question": "Apakah sunscreen ini bikin wajah tampak cerah tapi tetap natural?",
+    "labels": [
+      1,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/-BELIA-PIGEON-TEENS-Series-Facial-Foam-Moisturizer-Face-Powder-Sunscreen-Acne-Ranger-i.48382819.6086493854?extraParams=%7B%22display_model_id%22%3A193951069448%2C%22model_selection_logic%22%3A2%7D": {
+    "question": "Apakah produk ini membuat wajah terasa kenyal?",
+    "labels": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/-BELIA-PIXY-White-Aqua-Series-Day-Cream-Night-Sleeping-Mask-Face-Wash-Serum-Essence-Aqua-Clear-Defense-Pore-Cleanse-Foam-i.48382819.2700762599?extraParams=%7B%22display_model_id%22%3A8179067633%2C%22model_selection_logic%22%3A2%7D": {
+    "question": "Apakah packaging produk Pixy ini aman dan rapi dengan tambahan kardus?",
+    "labels": [
+      1,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      0
+    ]
+  },
+  "https://shopee.co.id/-BELIA-POND'S-Age-Miracle-Hexyl-Retinol-Niacinamide-Night-Cream-9gr-Facial-Foam-100gr-Day-Cream-9gr-Mencerahkan-Kulit-dalam-7-hari-dengan-10x-kekuatan-Anti-Aging-Terbaik-Ponds-Unilever-i.48382819.28803774088?extraParams=%7B%22display_model_id%22%3A49436924641%2C%22model_selection_logic%22%3A2%7D": {
+    "question": "Apakah paketnya dikemas dengan bubble wrap tebal?",
+    "labels": [
+      1,
+      0,
+      0,
+      1,
+      1,
+      0,
+      0,
+      1,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/-BELIA-POND'S-Facial-Foam-Series-50-g-100g-Face-Wash-Face-Scrub-Cleanser-Cleansing-Foam-Sabun-Wajah-Pure-Bright-Beauty-UNILEVER-PONDS-i.48382819.22434684561?extraParams=%7B%22display_model_id%22%3A157114327188%2C%22model_selection_logic%22%3A2%7D": {
+    "question": "Apakah produk ini dijual dalam ukuran kecil untuk coba-coba?",
+    "labels": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/-BELIA-POND'S-Sun-Serum-UV-Protection-Series-SPF-50-SPF-35-Sunscreen-Serum-Wajah-PONDS-i.48382819.16296711948?extraParams=%7B%22display_model_id%22%3A197145297841%2C%22model_selection_logic%22%3A2%7D": {
+    "question": "Apakah pengiriman produk ini cepat?",
+    "labels": [
+      1,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/-BELIA-POND'S-Triple-Glow-Serum-Series-Mencerahkan-Menghaluskan-dan-Melembapkan-Mengandung-Gluta-Boost-C-Vit-B3-Hyaluronic-Acid-Complex-Ponds-Unilever-i.48382819.25300970938?extraParams=%7B%22display_model_id%22%3A217146891480%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah produk yang dikirimkan berbeda dari pesanan?",
+    "labels": [
+      1,
+      0,
+      0,
+      1,
+      0,
+      1,
+      1,
+      1,
+      1,
+      0
+    ]
+  },
+  "https://shopee.co.id/-BELIA-QL-Face-Serum-Brightening-Anti-Acne-Vitamin-C-Serum-Wajah-i.48382819.11882120069?extraParams=%7B%22display_model_id%22%3A141635140611%2C%22model_selection_logic%22%3A2%7D": {
+    "question": "Apakah serum ini cepat meresap di kulit?",
+    "labels": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/-BELIA-SCORA-Cleanser-Series-D-Panthenol-Cleanser-SucinicAcid-Clean-Salicylic-Acid-Gentle-Phytobright-Gentle-Low-pH-i.48382819.25891098439?extraParams=%7B%22display_model_id%22%3A320341849504%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah cleanser ini cocok untuk kulit berminyak?",
+    "labels": [
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+    ]
+  },
+  "https://shopee.co.id/-BELIA-SHINZUI-Facial-Wash-Face-Wash-Facial-Foam-Lightening-Acne-Skin-BPOM-Halal-i.48382819.9290551537?extraParams=%7B%22display_model_id%22%3A84372133213%2C%22model_selection_logic%22%3A2%7D": {
+    "question": "Apakah produk ini asli?",
+    "labels": [
+      1,
+      1,
+      0,
+      0,
+      0,
+      1,
+      1,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/-BELIA-SKIN-AQUA-Series-Tone-Up-UV-Essence-UV-Moisture-Milk-Moist-Gel-Sunscreen-ROHTO-i.48382819.2409033719?extraParams=%7B%22display_model_id%22%3A4961488186%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah pengiriman pesanan dilakukan dengan cepat?",
+    "labels": [
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "https://shopee.co.id/-BELIA-SKINTIFIC-5X-Ceramide-Series-Moisturzer-Cleanser-Soothing-Toner-Serum-Sunscreen-Repairing-Mask-Repair-Serum-BPOM-i.48382819.20564503795?extraParams=%7B%22display_model_id%22%3A220337521006%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah setelah pemakaian wajah terasa kenyal dan lembap?",
+    "labels": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/-BELIA-SKINTIFIC-Cleanser-Series-15-ml-60-ml-80-ml-120-ml-Facial-Wash-Sabun-Cuci-Muka-i.48382819.25836370206?extraParams=%7B%22display_model_id%22%3A415280363415%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah pengiriman produknya cepat?",
+    "labels": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      1,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/-BELIA-SKINTIFIC-Niacinamide-Brightening-Cleanser-120ml-Facial-Wash-Cleanser-Acnes-Face-Wash-Sabun-Cuci-Muka-Acner-Glowing-Barrier-i.48382819.29010993220?extraParams=%7B%22display_model_id%22%3A207799641257%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah wajah menjadi lebih bersinar setelah cuci muka menggunakan produk ini?",
+    "labels": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/-BELIA-SKINTIFIC-Serum-Spray-Series-Radiance-Booster-Serum-Spray-100ml-PDRN-Radiance-Bright-Serum-Spray-100ml-Hydrates-Soothes-Skin-i.48382819.26229805888?extraParams=%7B%22display_model_id%22%3A345758532687%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah handbody ini membuat kulit lembap dan halus seharian?",
+    "labels": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/-BELIA-THE-FACE-Temulawak-Series-Facial-Foam-100-mL-Soap-Serum-Toner-Facial-Wash-Exfo-Gel-i.48382819.25400723330?extraParams=%7B%22display_model_id%22%3A250104741265%2C%22model_selection_logic%22%3A2%7D": {
+    "question": "Apakah produk ini bisa membantu mengatasi kulit beruntusan?",
+    "labels": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/-BELIA-THE-ORIGINOTE-Low-pH-Cicamide-Facial-Cleanser-70ml-150ml-Pembersih-wajah-Low-pH-Skin-Barrier-Melembabkan-Kulit-Ceramide-i.48382819.27216479645?extraParams=%7B%22display_model_id%22%3A246948072304%2C%22model_selection_logic%22%3A2%7D": {
+    "question": "Apakah pengiriman dari Belia cepat?",
+    "labels": [
+      1,
+      0,
+      0,
+      1,
+      0,
+      1,
+      0,
+      0,
+      1,
+      1
+    ]
+  },
+  "https://shopee.co.id/-BELIA-THE-ORIGINOTE-Series-Hyalucera-Moisturizer-Barrier-Ceramide-50g-Facial-Cleanser-Serum-i.48382819.23723151085?extraParams=%7B%22display_model_id%22%3A203823367137%2C%22model_selection_logic%22%3A2%7D": {
+    "question": "Apakah moisturizer ini bagus untuk menghilangkan bekas jerawat?",
+    "labels": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/-BELIA-VIVA-Serum-Series-Anti-Aging-Serum-Glowing-White-Peeling-Retinol-Serum-i.48382819.23366442053?extraParams=%7B%22display_model_id%22%3A350282667226%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah produk serum yang diterima dalam kondisi asli dan bersegel?",
+    "labels": [
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/-BELIA-WARDAH-Crystal-Secret-NMF-Amino-AHA-PHA-Clarifying-Foaming-Cleanser-100-mL-Sabun-Cuci-Muka-Gentle-Face-Facial-Wash-i.48382819.28410790065?extraParams=%7B%22display_model_id%22%3A185379614030%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah pesanan sampai lebih cepat dari perkiraan?",
+    "labels": [
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0
+    ]
+  },
+  "https://shopee.co.id/-BELIA-WARDAH-Lightening-Series-Day-Night-Cream-Face-Serum-Wash-Foam-Mask-Scrub-Toner-i.48382819.4717533343?extraParams=%7B%22display_model_id%22%3A13708506137%2C%22model_selection_logic%22%3A2%7D": {
+    "question": "Apakah pelayanannya responsif?",
+    "labels": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/-BELIA-WARDAH-Nature-Daily-Aloe-Hydramild-Essence-Toner-Multi-Gel-Face-Wash-Moisturizer-Cream-i.48382819.4216573812?extraParams=%7B%22display_model_id%22%3A13456504972%2C%22model_selection_logic%22%3A2%7D": {
+    "question": "Apakah facial wash Aloe Wardah ini cocok untuk kulit kombinasi kering dan berminyak?",
+    "labels": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/-BELIA-WARDAH-Nature-Daily-Aloe-Seaweed-Micellar-Water-100-ml-dan-240-ml-Make-Up-Remover-Pembersih-Wajah-i.48382819.7142059733?extraParams=%7B%22display_model_id%22%3A60276210563%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah micellar water ini membuat kulit terasa nyaman?",
+    "labels": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      1,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/-BELIA-WARDAH-Nature-Daily-Witch-Hazel-Purifying-MoistGel-40ml-Mineral-Facial-Foam-Clay-Mask-i.48382819.7139829901?extraParams=%7B%22display_model_id%22%3A41244289319%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah bubble wrap-nya tebal?",
+    "labels": [
+      1,
+      0,
+      1,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/-BELIA-WARDAH-Perfect-Bright-Facial-Foam-Facial-Wash-Untuk-Semua-Jenis-Kulit-Pembersih-Wajah-i.48382819.25734756656?extraParams=%7B%22display_model_id%22%3A241378834753%2C%22model_selection_logic%22%3A2%7D": {
+    "question": "Apakah harga produk di sini lebih murah?",
+    "labels": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/-BELIA-WARDAH-Perfect-Bright-Series-Creamy-Foam-Moisturizer-Tone-Up-Bright-Night-Glow-Moist-i.48382819.4716763585?extraParams=%7B%22display_model_id%22%3A13507076025%2C%22model_selection_logic%22%3A2%7D": {
+    "question": "Apakah pengirimannya cepat?",
+    "labels": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      1,
+      0,
+      0,
+      1
+    ]
+  },
+  "https://shopee.co.id/-BELIA-WARDAH-UV-Shield-Active-Protection-Serum-SPF-50-PA-Sun-Screen-Wajah-Waterproof-Skin-Protection-Perlindungan-Kulit-UVA-UVB-i.48382819.27360873498?extraParams=%7B%22display_model_id%22%3A168411110933%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah produk ini cocok untuk aktivitas outdoor seperti berenang?",
+    "labels": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/-BELIA-WARDAH-UV-Shield-Aqua-Fresh-Essence-Active-Protection-Serum-SPF-50-PA-Sunscreen-i.48382819.4042800415?extraParams=%7B%22display_model_id%22%3A246030628833%2C%22model_selection_logic%22%3A2%7D": {
+    "question": "Apakah sunscreen ini memberikan efek dingin setelah diaplikasikan?",
+    "labels": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+    ]
+  },
+  "https://shopee.co.id/-BELIA-Wardah-Renew-You-Series-Anti-Aging-Anti-keriput-Day-Night-Cream-Facial-Wash-Serum-i.48382819.7319481606?extraParams=%7B%22display_model_id%22%3A14461647975%2C%22model_selection_logic%22%3A2%7D": {
+    "question": "Apakah produk Wardah Renew You cocok untuk kulit yang berjerawat?",
+    "labels": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/-BELIA-YOU-Golden-Age-Series-Y.O.U-Skin-Care-Essence-Facial-Wash-Eye-Day-Night-Serum-Makeups-i.48382819.9012855173?extraParams=%7B%22display_model_id%22%3A24267222963%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah packaging-nya selalu rapi dan tidak ada yang cacat?",
+    "labels": [
+      1,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "https://shopee.co.id/-BELIA-YOU-Hy!-Amino-AC-Ttack-Anti-Acne-Facial-Wash-Jerawat-Kulit-Berminyak-100g-50g-i.48382819.27072411908?extraParams=%7B%22display_model_id%22%3A237228451644%2C%22model_selection_logic%22%3A2%7D": {
+    "question": "Apakah produk yang datang tidak sesuai jumlah pesanan?",
+    "labels": [
+      1,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      1
+    ]
+  },
+  "https://shopee.co.id/-BELIA-YOU-Hy!-Amino-Facial-Wash-100g-Oil-Control-Brightening-Anti-Acne-Sabun-Cuci-Muka-i.48382819.14573688433?extraParams=%7B%22display_model_id%22%3A125190489434%2C%22model_selection_logic%22%3A2%7D": {
+    "question": "Apakah packingnya aman dengan bubble wrap yang tebal?",
+    "labels": [
+      1,
+      0,
+      0,
+      1,
+      0,
+      0,
+      1,
+      0,
+      1,
+      0
+    ]
+  },
+  "https://shopee.co.id/-BELIA-YOU-Radiance-Glow-Series-Purifying-Facial-Foam-Sabun-Cuci-Wajah-Sakura-Extract-3X-VC-Niacinamide-i.48382819.23283967116?extraParams=%7B%22display_model_id%22%3A157062376487%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah produk ini bisa membuat kulit lebih cerah?",
+    "labels": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/-BELIA-YOU-Tone-Up-UV-Elixir-SPF-50-PA-40ml-Triple-UV-Elixir-SPF-50-Sunscreen-i.48382819.8216475333?extraParams=%7B%22display_model_id%22%3A153033437452%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah sunscreen ini menimbulkan bruntusan di awal pemakaian?",
+    "labels": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "https://shopee.co.id/PIGEON-TEENS-CALM-FAIRY-SERUM-20ML-Serum-Remaja-untuk-Kulit-Kemerahan-Saccharide-Isomerate-1--i.48382819.24987342290?extraParams=%7B%22display_model_id%22%3A205481912488%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Bagaimana kualitas serum ini?",
+    "labels": [
+      1
+    ]
+  },
+  "https://shopee.co.id/PIGEON-TEENS-PORELESS-WARRIOR-SERUM-20ML-Serum-Remaja-untuk-Kulit-Berpori-pori-Besar-dan-Berminyak-Enantia-Chlorantha-Bark-Extract-3--i.48382819.28114804961?extraParams=%7B%22display_model_id%22%3A158843317831%2C%22model_selection_logic%22%3A3%7D": {
+    "question": "Apakah pembeli berterima kasih atas produknya?",
+    "labels": [
+      1
+    ]
+  }
+}

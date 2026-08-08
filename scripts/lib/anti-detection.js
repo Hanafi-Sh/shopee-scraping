@@ -31,16 +31,23 @@ function slugify(s) {
 
 // ---- mouse movement -------------------------------------------------------
 
-// Move cursor along a Bezier-ish curve with smooth sub-steps. Stores the
-// final position on window.__mx / __my so subsequent calls continue from
-// the current location (humans don't teleport their cursor).
+// Smoothstep: S-curve velocity profile, 0→1→0. Used to slow sub-steps at
+// the start/end of a mouse path (humans accelerate mid-curve, decelerate at
+// the target — like reaching for a coffee cup).
+function easeInOut(t) {
+  return t * t * (3 - 2 * t);
+}
+
+// Move cursor along a Bezier-ish curve with S-curve velocity + variable
+// sub-step durations. Stores the final position on window.__mx / __my so
+// subsequent calls continue from the current location.
 async function naturalMove(page, targetX, targetY) {
   const cur = await page.evaluate(() => {
     if (typeof window.__mx !== 'number') window.__mx = 720;
     if (typeof window.__my !== 'number') window.__my = 450;
     return { x: window.__mx, y: window.__my };
   });
-  const steps = 10 + Math.floor(Math.random() * 8); // 10–17
+  const steps = 12 + Math.floor(Math.random() * 8); // 12–19 sub-steps
   const dx = targetX - cur.x;
   const dy = targetY - cur.y;
   const arc = (Math.random() - 0.5) * Math.min(80, Math.hypot(dx, dy) * 0.25);
@@ -48,15 +55,22 @@ async function naturalMove(page, targetX, targetY) {
   const perpY = dx * 0.2 + arc;
   for (let i = 1; i <= steps; i++) {
     const t = i / steps;
-    const bez = 4 * t * (1 - t);
-    await page.mouse.move(cur.x + dx * t + perpX * bez, cur.y + dy * t + perpY * bez);
-    await sleep(jitter(15, 45));
+    const e = easeInOut(t);                  // position via S-curve
+    const bez = 4 * t * (1 - t);             // arc weight (peak mid-path)
+    const x = cur.x + dx * e + perpX * bez;
+    const y = cur.y + dy * e + perpY * bez;
+    // Variable sub-step dwell: shortest mid-curve, longest at endpoints.
+    // Mid-curve ~18ms, endpoints ~45ms. The longer pauses at start/end
+    // are why human mousing looks "natural" instead of mechanical.
+    const dwell = 18 + 27 * Math.abs(0.5 - t) * 2;
+    await page.mouse.move(x, y);
+    await sleep(jitter(dwell * 0.7, dwell * 1.3));
   }
   await page.evaluate(({ x, y }) => { window.__mx = x; window.__my = y; }, { x: targetX, y: targetY });
 }
 
-// Tiny micro-movement near the current cursor position. Reads viewport
-// size from inside the page to avoid cross-process round-trip for the value.
+// Tiny micro-movement near the current cursor position. Used to keep the
+// mouse active during idle waits so it never sits dead.
 async function microWiggle(page) {
   const cur = await page.evaluate(() => ({
     x: typeof window.__mx === 'number' ? window.__mx : window.innerWidth / 2,
@@ -69,13 +83,38 @@ async function microWiggle(page) {
   await naturalMove(page, nx, ny);
 }
 
-// Idle "thinking" pause with several micro-wiggles.
-async function idle(page, totalMs) {
-  const start = Date.now();
-  while (Date.now() - start < totalMs) {
-    await microWiggle(page);
-    await sleep(jitter(40, 140));
+// Continuous drift along a single chained Bezier path — replaces the old
+// "idle = loop of microWiggle + sleep" which produced a visible stop-and-go
+// pulse (move 30px, pause 50ms, move 30px, pause 50ms…). This version picks
+// 3–5 random waypoints and runs the cursor through them with only short
+// transition pauses between segments, no parking between sub-moves.
+async function continuousDrift(page, totalMs) {
+  const numSegments = 3 + Math.floor(Math.random() * 3); // 3–5 waypoints
+  const perSegment = Math.max(200, Math.floor(totalMs / numSegments));
+  for (let s = 0; s < numSegments; s++) {
+    const target = await page.evaluate(() => {
+      const w = window.innerWidth;
+      const h = window.innerHeight;
+      return {
+        x: Math.floor(w * (0.25 + Math.random() * 0.5)),
+        y: Math.floor(h * (0.25 + Math.random() * 0.5)),
+      };
+    });
+    await naturalMove(page, target.x, target.y);
+    if (s < numSegments - 1) {
+      // Brief settle between segments — small, not a full stop.
+      await sleep(jitter(80, 220));
+    } else {
+      // Last segment: spend the remaining time idling in place.
+      const remaining = perSegment - 200;
+      if (remaining > 0) await sleep(remaining);
+    }
   }
+}
+
+// Idle "thinking" pause — now uses continuousDrift so motion never parks.
+async function idle(page, totalMs) {
+  await continuousDrift(page, totalMs);
 }
 
 // Hover at a coordinate with a brief pre-click pause.
@@ -94,11 +133,29 @@ async function driftMouse(page) {
 
 // ---- scroll ----------------------------------------------------------------
 
+// Scroll via mouse wheel events instead of window.scrollTo. Real users scroll
+// with the wheel; programmatic scrollTo is mechanical and bypasses browser
+// event-loop timings that anti-bot systems measure.
 async function naturalScroll(page, targetY, { smooth = true } = {}) {
-  await page.evaluate(
-    ({ y, sm }) => window.scrollTo({ top: y, behavior: sm ? 'smooth' : 'auto' }),
-    { y: targetY, sm: smooth },
-  );
+  const currentY = await page.evaluate(() => window.scrollY);
+  const delta = targetY - currentY;
+  if (Math.abs(delta) < 50) {
+    await page.mouse.wheel(0, delta);
+    return;
+  }
+  // Simulate a scroll wheel burst: many small ticks with random delays so the
+  // page renders frames between ticks. Smooth scroll mode = ~15ms gaps,
+  // instant mode = ~5ms.
+  const stepSize = 80 + Math.floor(Math.random() * 80); // 80–160 px per tick
+  const numSteps = Math.max(1, Math.ceil(Math.abs(delta) / stepSize));
+  const gapMin = smooth ? 30 : 10;
+  const gapMax = smooth ? 80 : 25;
+  for (let i = 0; i < numSteps; i++) {
+    const remaining = delta - i * Math.sign(delta) * stepSize;
+    const step = Math.sign(delta) * Math.min(stepSize, Math.abs(remaining));
+    await page.mouse.wheel(0, step);
+    await sleep(jitter(gapMin, gapMax));
+  }
 }
 
 // Variable scroll sequence: smooth / overshoot / correct, with idle drift.
@@ -167,8 +224,10 @@ module.exports = {
   sleep,
   ts,
   slugify,
+  easeInOut,
   naturalMove,
   microWiggle,
+  continuousDrift,
   idle,
   hoverAt,
   driftMouse,
